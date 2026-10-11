@@ -1,0 +1,18 @@
+{
+  "app": "APEX V5",
+  "mode": "PAPER ONLY",
+  "currency": "AUD",
+  "updated": null,
+  "last_successful_scan": null,
+  "error": null,
+  "scanned": 0,
+  "equity": 100,
+  "cash": 100,
+  "pnl": 0,
+  "positions": [],
+  "trades": [],
+  "history": [],
+  "opportunities": [],
+  "markets": [],
+  "workers": []
+}

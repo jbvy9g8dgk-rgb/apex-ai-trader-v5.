@@ -1,0 +1,16 @@
+{
+  "name": "APEX V5 Trading Terminal",
+  "short_name": "APEX V5",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#080f20",
+  "theme_color": "#080f20",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
