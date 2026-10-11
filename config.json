@@ -5,7 +5,7 @@
   "max_position_pct": 0.1,
   "stop_loss_pct": 0.05,
   "take_profit_pct": 0.1,
-  "min_signal_score": 68,
+  "min_signal_score": 72,
   "min_24h_volume_aud": 1000000,
   "fee_rate": 0.001,
   "scan_minutes": 15
