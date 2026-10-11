@@ -1,13 +1,6 @@
 {
-  "cash": 61.72198710489656,
+  "cash": 62.40626134536198,
   "positions": {
-    "near": {
-      "symbol": "NEAR",
-      "quantity": 1.3354292766057474,
-      "entry": 7.48,
-      "cost": 9.999,
-      "opened": "2026-10-11T08:20:18+00:00"
-    },
     "aerodrome-finance": {
       "symbol": "AERO",
       "quantity": 7.235518105083324,
@@ -28,6 +21,13 @@
       "entry": 0.173409,
       "cost": 10.326,
       "opened": "2026-10-11T16:12:07+00:00"
+    },
+    "near": {
+      "symbol": "NEAR",
+      "quantity": 1.2499016135379775,
+      "entry": 8.25,
+      "cost": 10.322000000000001,
+      "opened": "2026-10-11T16:31:49+00:00"
     }
   },
   "trades": [
@@ -156,6 +156,24 @@
       "quantity": 59.48759473663026,
       "pnl_aud": null,
       "reason": "Score 88.6; EMA 12/26: bullish, MACD: bullish, RSI: 82.7, 24h: +25.08%, 7d: +109.58%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-11T16:31:49+00:00",
+      "side": "SELL",
+      "symbol": "NEAR",
+      "price": 8.25,
+      "quantity": 1.3354292766057474,
+      "pnl_aud": 1.01,
+      "reason": "take profit"
+    },
+    {
+      "at": "2026-10-11T16:31:49+00:00",
+      "side": "BUY",
+      "symbol": "NEAR",
+      "price": 8.25,
+      "quantity": 1.2499016135379775,
+      "pnl_aud": null,
+      "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 92.6, 24h: +7.19%, 7d: +20.64%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -258,7 +276,11 @@
     {
       "at": "2026-10-11T16:12:07+00:00",
       "equity": 103.25
+    },
+    {
+      "at": "2026-10-11T16:31:49+00:00",
+      "equity": 103.21
     }
   ],
-  "last_scan": "2026-10-11T16:12:07+00:00"
+  "last_scan": "2026-10-11T16:31:49+00:00"
 }
