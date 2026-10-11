@@ -1,0 +1,78 @@
+{
+  "cash": 60.006,
+  "positions": {
+    "usds": {
+      "symbol": "USDS",
+      "quantity": 6.986020972034959,
+      "entry": 1.43,
+      "cost": 10.0,
+      "opened": "2026-10-11T08:20:18+00:00"
+    },
+    "near": {
+      "symbol": "NEAR",
+      "quantity": 1.3354292766057474,
+      "entry": 7.48,
+      "cost": 9.999,
+      "opened": "2026-10-11T08:20:18+00:00"
+    },
+    "dai": {
+      "symbol": "DAI",
+      "quantity": 6.984623767840553,
+      "entry": 1.43,
+      "cost": 9.998000000000001,
+      "opened": "2026-10-11T08:20:18+00:00"
+    },
+    "tether-gold": {
+      "symbol": "XAUT",
+      "quantity": 0.0016678044172483164,
+      "entry": 5988.12,
+      "cost": 9.997,
+      "opened": "2026-10-11T08:20:18+00:00"
+    }
+  },
+  "trades": [
+    {
+      "at": "2026-10-11T08:20:18+00:00",
+      "side": "BUY",
+      "symbol": "USDS",
+      "price": 1.43,
+      "quantity": 6.986020972034959,
+      "pnl_aud": null,
+      "reason": "Rules passed; score 82"
+    },
+    {
+      "at": "2026-10-11T08:20:18+00:00",
+      "side": "BUY",
+      "symbol": "NEAR",
+      "price": 7.48,
+      "quantity": 1.3354292766057474,
+      "pnl_aud": null,
+      "reason": "Rules passed; score 82"
+    },
+    {
+      "at": "2026-10-11T08:20:18+00:00",
+      "side": "BUY",
+      "symbol": "DAI",
+      "price": 1.43,
+      "quantity": 6.984623767840553,
+      "pnl_aud": null,
+      "reason": "Rules passed; score 82"
+    },
+    {
+      "at": "2026-10-11T08:20:18+00:00",
+      "side": "BUY",
+      "symbol": "XAUT",
+      "price": 5988.12,
+      "quantity": 0.0016678044172483164,
+      "pnl_aud": null,
+      "reason": "Rules passed; score 82"
+    }
+  ],
+  "equity_history": [
+    {
+      "at": "2026-10-11T08:20:18+00:00",
+      "equity": 99.96
+    }
+  ],
+  "last_scan": "2026-10-11T08:20:18+00:00"
+}
