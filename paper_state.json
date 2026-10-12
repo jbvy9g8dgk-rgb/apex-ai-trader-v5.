@@ -1,33 +1,53 @@
 {
-  "cash": 61.79584793713465,
+  "cash": 30.89284198633869,
   "positions": {
     "aerodrome-finance": {
       "symbol": "AERO",
       "quantity": 7.235518105083324,
       "entry": 1.38,
       "cost": 9.995000000000001,
-      "opened": "2026-10-11T08:34:18+00:00"
+      "opened": "2026-10-11T08:34:18+00:00",
+      "peak_price": 1.38
     },
     "bitway": {
       "symbol": "BTW",
       "quantity": 4.252830502830504,
       "entry": 2.4,
       "cost": 10.217,
-      "opened": "2026-10-11T15:31:31+00:00"
+      "opened": "2026-10-11T15:31:31+00:00",
+      "peak_price": 2.4
     },
     "near": {
       "symbol": "NEAR",
       "quantity": 1.2499016135379775,
       "entry": 8.25,
       "cost": 10.322000000000001,
-      "opened": "2026-10-11T16:31:49+00:00"
+      "opened": "2026-10-11T16:31:49+00:00",
+      "peak_price": 8.42
     },
     "starknet": {
       "symbol": "STRK",
       "quantity": 63.137564528153035,
       "entry": 0.161802,
       "cost": 10.226,
-      "opened": "2026-10-11T18:12:23+00:00"
+      "opened": "2026-10-11T18:12:23+00:00",
+      "peak_price": 0.173185
+    },
+    "filecoin": {
+      "symbol": "FIL",
+      "quantity": 8.70950987194115,
+      "entry": 1.772655,
+      "cost": 15.454395178267884,
+      "opened": "2026-10-12T00:48:10+00:00",
+      "peak_price": 1.772655
+    },
+    "aptos": {
+      "symbol": "APT",
+      "quantity": 11.945784884636721,
+      "entry": 1.291935,
+      "cost": 15.448610772528074,
+      "opened": "2026-10-12T00:48:10+00:00",
+      "peak_price": 1.291935
     }
   },
   "trades": [
@@ -192,6 +212,24 @@
       "quantity": 63.137564528153035,
       "pnl_aud": null,
       "reason": "Score 93.4; EMA 12/26: bullish, MACD: bullish, RSI: 76.7, 24h: +17.78%, 7d: +102.75%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-12T00:48:10+00:00",
+      "side": "BUY",
+      "symbol": "FIL",
+      "price": 1.772655,
+      "quantity": 8.70950987194115,
+      "pnl_aud": null,
+      "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 98.1, 24h: +11.46%, 7d: +16.44%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-12T00:48:10+00:00",
+      "side": "BUY",
+      "symbol": "APT",
+      "price": 1.291935,
+      "quantity": 11.945784884636721,
+      "pnl_aud": null,
+      "reason": "Score 84.5; EMA 12/26: bullish, MACD: bullish, RSI: 91.1, 24h: +4.71%, 7d: +12.35%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -390,7 +428,16 @@
     {
       "at": "2026-10-12T00:19:09+00:00",
       "equity": 102.95
+    },
+    {
+      "at": "2026-10-12T00:48:10+00:00",
+      "equity": 102.95
     }
   ],
-  "last_scan": "2026-10-12T00:19:09+00:00"
+  "last_scan": "2026-10-12T00:48:10+00:00",
+  "risk": {
+    "date": "2026-10-12",
+    "start_equity": 103.02930118845256,
+    "locked": false
+  }
 }
