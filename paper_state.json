@@ -1,5 +1,5 @@
 {
-  "cash": 8.901643972190612,
+  "cash": 22.93584086027051,
   "positions": {
     "beldex": {
       "symbol": "BDX",
@@ -16,14 +16,6 @@
       "cost": 14.912363980875032,
       "opened": "2026-10-12T18:18:53+00:00",
       "peak_price": 11.387055
-    },
-    "layerzero": {
-      "symbol": "ZRO",
-      "quantity": 4.721258106358567,
-      "entry": 3.12468,
-      "cost": 14.767173200556263,
-      "opened": "2026-10-12T19:12:43+00:00",
-      "peak_price": 3.23
     },
     "bitway": {
       "symbol": "BTW",
@@ -518,6 +510,15 @@
       "quantity": 23.881822731469512,
       "pnl_aud": null,
       "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 96.0, 24h: +9.44%, 7d: +18.22%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-12T23:18:12+00:00",
+      "side": "SELL",
+      "symbol": "ZRO",
+      "price": 2.97553,
+      "quantity": 4.721258106358567,
+      "pnl_aud": -0.73,
+      "reason": "stop loss"
     }
   ],
   "equity_history": [
@@ -920,9 +921,13 @@
     {
       "at": "2026-10-12T22:58:01+00:00",
       "equity": 97.32
+    },
+    {
+      "at": "2026-10-12T23:18:12+00:00",
+      "equity": 97.07
     }
   ],
-  "last_scan": "2026-10-12T22:58:01+00:00",
+  "last_scan": "2026-10-12T23:18:12+00:00",
   "risk": {
     "date": "2026-10-12",
     "start_equity": 103.02930118845256,
