@@ -1,5 +1,5 @@
 {
-  "cash": 13.941242504580792,
+  "cash": 13.357372890382713,
   "positions": {
     "bitway": {
       "symbol": "BTW",
@@ -15,7 +15,7 @@
       "entry": 0.13408082000000002,
       "cost": 15.30266596099506,
       "opened": "2026-10-12T15:04:34+00:00",
-      "peak_price": 0.13408082000000002
+      "peak_price": 0.138127
     },
     "layerzero": {
       "symbol": "ZRO",
@@ -24,14 +24,6 @@
       "cost": 15.038737311121233,
       "opened": "2026-10-12T16:00:05+00:00",
       "peak_price": 3.254875
-    },
-    "pyth-network": {
-      "symbol": "PYTH",
-      "quantity": 117.45499757616669,
-      "entry": 0.1278625065,
-      "cost": 15.033108481431137,
-      "opened": "2026-10-12T16:00:05+00:00",
-      "peak_price": 0.1278625065
     },
     "blockstack": {
       "symbol": "STX",
@@ -47,7 +39,15 @@
       "entry": 0.1227768895,
       "cost": 14.841668739675555,
       "opened": "2026-10-12T17:13:10+00:00",
-      "peak_price": 0.1227768895
+      "peak_price": 0.12631
+    },
+    "pyth-network": {
+      "symbol": "PYTH",
+      "quantity": 121.63330012844384,
+      "entry": 0.12243337500000001,
+      "cost": 14.906867422560424,
+      "opened": "2026-10-12T17:35:16+00:00",
+      "peak_price": 0.12243337500000001
     }
   },
   "trades": [
@@ -410,6 +410,24 @@
       "quantity": 120.76248191462595,
       "pnl_aud": null,
       "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 95.9, 24h: +6.33%, 7d: +16.48%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-12T17:35:16+00:00",
+      "side": "SELL",
+      "symbol": "PYTH",
+      "price": 0.122066625,
+      "quantity": 117.45499757616669,
+      "pnl_aud": -0.71,
+      "reason": "stop loss"
+    },
+    {
+      "at": "2026-10-12T17:35:16+00:00",
+      "side": "BUY",
+      "symbol": "PYTH",
+      "price": 0.12243337500000001,
+      "quantity": 121.63330012844384,
+      "pnl_aud": null,
+      "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 88.5, 24h: +10.27%, 7d: +11.27%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -752,9 +770,13 @@
     {
       "at": "2026-10-12T17:13:10+00:00",
       "equity": 98.91
+    },
+    {
+      "at": "2026-10-12T17:35:16+00:00",
+      "equity": 99.34
     }
   ],
-  "last_scan": "2026-10-12T17:13:10+00:00",
+  "last_scan": "2026-10-12T17:35:16+00:00",
   "risk": {
     "date": "2026-10-12",
     "start_equity": 103.02930118845256,
