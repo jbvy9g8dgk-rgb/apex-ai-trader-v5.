@@ -1,5 +1,5 @@
 {
-  "cash": 8.668722491531913,
+  "cash": 7.686550789922579,
   "positions": {
     "starknet": {
       "symbol": "STRK",
@@ -9,21 +9,13 @@
       "opened": "2026-10-12T15:04:34+00:00",
       "peak_price": 0.14159
     },
-    "layerzero": {
-      "symbol": "ZRO",
-      "quantity": 4.615757470724286,
-      "entry": 3.254875,
-      "cost": 15.038737311121233,
-      "opened": "2026-10-12T16:00:05+00:00",
-      "peak_price": 3.254875
-    },
     "blockstack": {
       "symbol": "STX",
       "quantity": 25.541410364219598,
       "entry": 0.583952617,
       "cost": 14.929888397481013,
       "opened": "2026-10-12T16:46:19+00:00",
-      "peak_price": 0.586144
+      "peak_price": 0.606998
     },
     "beldex": {
       "symbol": "BDX",
@@ -33,14 +25,6 @@
       "opened": "2026-10-12T17:13:10+00:00",
       "peak_price": 0.127024
     },
-    "pyth-network": {
-      "symbol": "PYTH",
-      "quantity": 121.63330012844384,
-      "entry": 0.12243337500000001,
-      "cost": 14.906867422560424,
-      "opened": "2026-10-12T17:35:16+00:00",
-      "peak_price": 0.12243337500000001
-    },
     "kucoin-shares": {
       "symbol": "KCS",
       "quantity": 1.3082808956627217,
@@ -48,6 +32,22 @@
       "cost": 14.912363980875032,
       "opened": "2026-10-12T18:18:53+00:00",
       "peak_price": 11.387055
+    },
+    "layerzero": {
+      "symbol": "ZRO",
+      "quantity": 4.721258106358567,
+      "entry": 3.12468,
+      "cost": 14.767173200556263,
+      "opened": "2026-10-12T19:12:43+00:00",
+      "peak_price": 3.12468
+    },
+    "bitway": {
+      "symbol": "BTW",
+      "quantity": 6.135338290536487,
+      "entry": 2.4036,
+      "cost": 14.761646014248631,
+      "opened": "2026-10-12T19:12:43+00:00",
+      "peak_price": 2.4036
     }
   },
   "trades": [
@@ -446,6 +446,42 @@
       "quantity": 1.3082808956627217,
       "pnl_aud": null,
       "reason": "Score 79.1; EMA 12/26: bullish, MACD: bullish, RSI: 99.2, 24h: +3.93%, 7d: +4.65%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-12T19:12:43+00:00",
+      "side": "SELL",
+      "symbol": "ZRO",
+      "price": 3.11532,
+      "quantity": 4.615757470724286,
+      "pnl_aud": -0.67,
+      "reason": "stop loss"
+    },
+    {
+      "at": "2026-10-12T19:12:43+00:00",
+      "side": "SELL",
+      "symbol": "PYTH",
+      "price": 0.11670867400000001,
+      "quantity": 121.63330012844384,
+      "pnl_aud": -0.73,
+      "reason": "stop loss"
+    },
+    {
+      "at": "2026-10-12T19:12:43+00:00",
+      "side": "BUY",
+      "symbol": "ZRO",
+      "price": 3.12468,
+      "quantity": 4.721258106358567,
+      "pnl_aud": null,
+      "reason": "Score 85.2; EMA 12/26: bullish, MACD: bullish, RSI: 80.6, 24h: +4.27%, 7d: +6.43%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-12T19:12:43+00:00",
+      "side": "BUY",
+      "symbol": "BTW",
+      "price": 2.4036,
+      "quantity": 6.135338290536487,
+      "pnl_aud": null,
+      "reason": "Score 78.8; EMA 12/26: bullish, MACD: bullish, RSI: 94.3, 24h: +1.58%, 7d: +33.60%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -804,9 +840,13 @@
     {
       "at": "2026-10-12T18:51:04+00:00",
       "equity": 98.7
+    },
+    {
+      "at": "2026-10-12T19:12:43+00:00",
+      "equity": 98.37
     }
   ],
-  "last_scan": "2026-10-12T18:51:04+00:00",
+  "last_scan": "2026-10-12T19:12:43+00:00",
   "risk": {
     "date": "2026-10-12",
     "start_equity": 103.02930118845256,
