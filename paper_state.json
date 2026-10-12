@@ -1,5 +1,5 @@
 {
-  "cash": 30.89284198633869,
+  "cash": 25.768331610488925,
   "positions": {
     "aerodrome-finance": {
       "symbol": "AERO",
@@ -25,14 +25,6 @@
       "opened": "2026-10-11T16:31:49+00:00",
       "peak_price": 8.44
     },
-    "starknet": {
-      "symbol": "STRK",
-      "quantity": 63.137564528153035,
-      "entry": 0.161802,
-      "cost": 10.226,
-      "opened": "2026-10-11T18:12:23+00:00",
-      "peak_price": 0.176826
-    },
     "filecoin": {
       "symbol": "FIL",
       "quantity": 8.70950987194115,
@@ -48,6 +40,14 @@
       "cost": 15.448610772528074,
       "opened": "2026-10-12T00:48:10+00:00",
       "peak_price": 1.291935
+    },
+    "layerzero": {
+      "symbol": "ZRO",
+      "quantity": 5.004248944242446,
+      "entry": 3.04456,
+      "cost": 15.250971901848462,
+      "opened": "2026-10-12T02:58:59+00:00",
+      "peak_price": 3.04456
     }
   },
   "trades": [
@@ -230,6 +230,24 @@
       "quantity": 11.945784884636721,
       "pnl_aud": null,
       "reason": "Score 84.5; EMA 12/26: bullish, MACD: bullish, RSI: 91.1, 24h: +4.71%, 7d: +12.35%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-12T02:58:59+00:00",
+      "side": "SELL",
+      "symbol": "STRK",
+      "price": 0.1605478165,
+      "quantity": 63.137564528153035,
+      "pnl_aud": -0.1,
+      "reason": "trailing stop"
+    },
+    {
+      "at": "2026-10-12T02:58:59+00:00",
+      "side": "BUY",
+      "symbol": "ZRO",
+      "price": 3.04456,
+      "quantity": 5.004248944242446,
+      "pnl_aud": null,
+      "reason": "Score 84.7; EMA 12/26: bullish, MACD: bullish, RSI: 89.5, 24h: +6.28%, 7d: +8.70%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -452,9 +470,13 @@
     {
       "at": "2026-10-12T02:36:59+00:00",
       "equity": 102.85
+    },
+    {
+      "at": "2026-10-12T02:58:59+00:00",
+      "equity": 101.64
     }
   ],
-  "last_scan": "2026-10-12T02:36:59+00:00",
+  "last_scan": "2026-10-12T02:58:59+00:00",
   "risk": {
     "date": "2026-10-12",
     "start_equity": 103.02930118845256,
