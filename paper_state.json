@@ -1,14 +1,6 @@
 {
-  "cash": 27.71882957169521,
+  "cash": 21.59561040854149,
   "positions": {
-    "aerodrome-finance": {
-      "symbol": "AERO",
-      "quantity": 7.235518105083324,
-      "entry": 1.38,
-      "cost": 9.995000000000001,
-      "opened": "2026-10-11T08:34:18+00:00",
-      "peak_price": 1.38
-    },
     "bitway": {
       "symbol": "BTW",
       "quantity": 4.252830502830504,
@@ -48,6 +40,14 @@
       "cost": 15.720282270817323,
       "opened": "2026-10-12T08:37:04+00:00",
       "peak_price": 3.55
+    },
+    "internet-computer": {
+      "symbol": "ICP",
+      "quantity": 3.141084263518187,
+      "entry": 4.977455,
+      "cost": 15.650240178442786,
+      "opened": "2026-10-12T09:36:17+00:00",
+      "peak_price": 4.977455
     }
   },
   "trades": [
@@ -266,6 +266,24 @@
       "quantity": 4.429676866938067,
       "pnl_aud": null,
       "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 95.5, 24h: +22.70%, 7d: +27.84%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-12T09:36:17+00:00",
+      "side": "SELL",
+      "symbol": "AERO",
+      "price": 1.3180200000000002,
+      "quantity": 7.235518105083324,
+      "pnl_aud": -0.47,
+      "reason": "stop loss"
+    },
+    {
+      "at": "2026-10-12T09:36:17+00:00",
+      "side": "BUY",
+      "symbol": "ICP",
+      "price": 4.977455,
+      "quantity": 3.141084263518187,
+      "pnl_aud": null,
+      "reason": "Score 82.2; EMA 12/26: bullish, MACD: bullish, RSI: 95.6, 24h: +13.17%, 7d: +4.89%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -544,9 +562,13 @@
     {
       "at": "2026-10-12T09:02:02+00:00",
       "equity": 105.01
+    },
+    {
+      "at": "2026-10-12T09:36:17+00:00",
+      "equity": 104.3
     }
   ],
-  "last_scan": "2026-10-12T09:02:02+00:00",
+  "last_scan": "2026-10-12T09:36:17+00:00",
   "risk": {
     "date": "2026-10-12",
     "start_equity": 103.02930118845256,
