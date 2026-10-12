@@ -1,14 +1,6 @@
 {
-  "cash": 7.957314514852811,
+  "cash": 8.901643972190612,
   "positions": {
-    "blockstack": {
-      "symbol": "STX",
-      "quantity": 25.541410364219598,
-      "entry": 0.583952617,
-      "cost": 14.929888397481013,
-      "opened": "2026-10-12T16:46:19+00:00",
-      "peak_price": 0.647825
-    },
     "beldex": {
       "symbol": "BDX",
       "quantity": 120.76248191462595,
@@ -48,6 +40,14 @@
       "cost": 14.888478372512893,
       "opened": "2026-10-12T21:11:37+00:00",
       "peak_price": 3.04456
+    },
+    "blockstack": {
+      "symbol": "STX",
+      "quantity": 23.881822731469512,
+      "entry": 0.6157071775,
+      "cost": 14.718913877215982,
+      "opened": "2026-10-12T21:56:26+00:00",
+      "peak_price": 0.6157071775
     }
   },
   "trades": [
@@ -500,6 +500,24 @@
       "quantity": 4.885305189500338,
       "pnl_aud": null,
       "reason": "Score 82.4; EMA 12/26: bullish, MACD: bullish, RSI: 89.3, 24h: +6.45%, 7d: +5.21%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-12T21:56:26+00:00",
+      "side": "SELL",
+      "symbol": "STX",
+      "price": 0.6138628225,
+      "quantity": 25.541410364219598,
+      "pnl_aud": 0.73,
+      "reason": "trailing stop"
+    },
+    {
+      "at": "2026-10-12T21:56:26+00:00",
+      "side": "BUY",
+      "symbol": "STX",
+      "price": 0.6157071775,
+      "quantity": 23.881822731469512,
+      "pnl_aud": null,
+      "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 96.0, 24h: +9.44%, 7d: +18.22%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -886,9 +904,13 @@
     {
       "at": "2026-10-12T21:31:31+00:00",
       "equity": 99.63
+    },
+    {
+      "at": "2026-10-12T21:56:26+00:00",
+      "equity": 98.09
     }
   ],
-  "last_scan": "2026-10-12T21:31:31+00:00",
+  "last_scan": "2026-10-12T21:56:26+00:00",
   "risk": {
     "date": "2026-10-12",
     "start_equity": 103.02930118845256,
