@@ -1,5 +1,5 @@
 {
-  "cash": 10.626305896463732,
+  "cash": 10.065036872912925,
   "positions": {
     "kucoin-shares": {
       "symbol": "KCS",
@@ -43,11 +43,11 @@
     },
     "bitway": {
       "symbol": "BTW",
-      "quantity": 5.199920072460544,
-      "entry": 2.834245,
-      "cost": 14.752585313236706,
-      "opened": "2026-10-13T14:36:55+00:00",
-      "peak_price": 2.834245
+      "quantity": 5.380578894847695,
+      "entry": 2.714065,
+      "cost": 14.617844099103054,
+      "opened": "2026-10-13T18:18:11+00:00",
+      "peak_price": 2.714065
     }
   },
   "trades": [
@@ -626,6 +626,24 @@
       "quantity": 5.199920072460544,
       "pnl_aud": null,
       "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 93.4, 24h: +10.84%, 7d: +59.38%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-13T18:18:11+00:00",
+      "side": "SELL",
+      "symbol": "BTW",
+      "price": 2.705935,
+      "quantity": 5.199920072460544,
+      "pnl_aud": -0.7,
+      "reason": "stop loss"
+    },
+    {
+      "at": "2026-10-13T18:18:11+00:00",
+      "side": "BUY",
+      "symbol": "BTW",
+      "price": 2.714065,
+      "quantity": 5.380578894847695,
+      "pnl_aud": null,
+      "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 94.1, 24h: +12.41%, 7d: +58.71%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -1200,9 +1218,13 @@
     {
       "at": "2026-10-13T17:46:02+00:00",
       "equity": 98.09
+    },
+    {
+      "at": "2026-10-13T18:18:11+00:00",
+      "equity": 97.42
     }
   ],
-  "last_scan": "2026-10-13T17:46:02+00:00",
+  "last_scan": "2026-10-13T18:18:11+00:00",
   "risk": {
     "date": "2026-10-13",
     "start_equity": 96.80712552057886,
