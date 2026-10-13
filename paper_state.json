@@ -1,5 +1,5 @@
 {
-  "cash": 36.971758706907835,
+  "cash": 7.935056122952043,
   "positions": {
     "beldex": {
       "symbol": "BDX",
@@ -7,7 +7,7 @@
       "entry": 0.1227768895,
       "cost": 14.841668739675555,
       "opened": "2026-10-12T17:13:10+00:00",
-      "peak_price": 0.128105
+      "peak_price": 0.12859
     },
     "kucoin-shares": {
       "symbol": "KCS",
@@ -32,6 +32,22 @@
       "cost": 14.888478372512893,
       "opened": "2026-10-12T21:11:37+00:00",
       "peak_price": 3.06
+    },
+    "blockstack": {
+      "symbol": "STX",
+      "quantity": 24.608167614876614,
+      "entry": 0.5895019285,
+      "cost": 14.521068828086829,
+      "opened": "2026-10-13T00:33:43+00:00",
+      "peak_price": 0.5895019285
+    },
+    "usdgo": {
+      "symbol": "USDGO",
+      "quantity": 10.055148265966132,
+      "entry": 1.44216,
+      "cost": 14.515633755868963,
+      "opened": "2026-10-13T00:33:43+00:00",
+      "peak_price": 1.44216
     }
   },
   "trades": [
@@ -520,6 +536,24 @@
       "quantity": 23.881822731469512,
       "pnl_aud": -0.68,
       "reason": "stop loss"
+    },
+    {
+      "at": "2026-10-13T00:33:43+00:00",
+      "side": "BUY",
+      "symbol": "STX",
+      "price": 0.5895019285,
+      "quantity": 24.608167614876614,
+      "pnl_aud": null,
+      "reason": "Score 81.0; EMA 12/26: bullish, MACD: bullish, RSI: 90.6, 24h: +3.70%, 7d: +8.15%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-13T00:33:43+00:00",
+      "side": "BUY",
+      "symbol": "USDGO",
+      "price": 1.44216,
+      "quantity": 10.055148265966132,
+      "pnl_aud": null,
+      "reason": "Score 70.0; EMA 12/26: bullish, MACD: bullish, RSI: 99.9, 24h: +0.56%, 7d: +0.01%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -934,12 +968,16 @@
     {
       "at": "2026-10-12T23:59:52+00:00",
       "equity": 97.01
+    },
+    {
+      "at": "2026-10-13T00:33:43+00:00",
+      "equity": 96.73
     }
   ],
-  "last_scan": "2026-10-12T23:59:52+00:00",
+  "last_scan": "2026-10-13T00:33:43+00:00",
   "risk": {
-    "date": "2026-10-12",
-    "start_equity": 103.02930118845256,
-    "locked": true
+    "date": "2026-10-13",
+    "start_equity": 96.80712552057886,
+    "locked": false
   }
 }
