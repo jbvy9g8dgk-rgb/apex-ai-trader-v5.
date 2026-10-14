@@ -1,5 +1,5 @@
 {
-  "cash": 11.000083223063584,
+  "cash": 9.960261200318202,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -23,15 +23,7 @@
       "entry": 0.19971712700000002,
       "cost": 14.551560531625423,
       "opened": "2026-10-13T11:14:09+00:00",
-      "peak_price": 0.201741
-    },
-    "bitway": {
-      "symbol": "BTW",
-      "quantity": 4.355338619350121,
-      "entry": 3.4752050000000003,
-      "cost": 15.150830241205295,
-      "opened": "2026-10-14T12:28:36+00:00",
-      "peak_price": 3.57
+      "peak_price": 0.203244
     },
     "pearl-2": {
       "symbol": "PRL",
@@ -47,7 +39,15 @@
       "entry": 794.0192450000001,
       "cost": 15.019726969036746,
       "opened": "2026-10-14T14:25:09+00:00",
-      "peak_price": 794.0192450000001
+      "peak_price": 796.7
+    },
+    "bitway": {
+      "symbol": "BTW",
+      "quantity": 4.658765919396906,
+      "entry": 3.194785,
+      "cost": 14.898639233278244,
+      "opened": "2026-10-14T17:06:03+00:00",
+      "peak_price": 3.194785
     }
   },
   "trades": [
@@ -770,6 +770,24 @@
       "quantity": 0.018897177041080352,
       "pnl_aud": null,
       "reason": "Score 77.0; EMA 12/26: bullish, MACD: bullish, RSI: 95.9, 24h: +4.23%, 7d: +0.55%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-14T17:06:03+00:00",
+      "side": "SELL",
+      "symbol": "BTW",
+      "price": 3.185215,
+      "quantity": 4.355338619350121,
+      "pnl_aud": -1.29,
+      "reason": "stop loss"
+    },
+    {
+      "at": "2026-10-14T17:06:03+00:00",
+      "side": "BUY",
+      "symbol": "BTW",
+      "price": 3.194785,
+      "quantity": 4.658765919396906,
+      "pnl_aud": null,
+      "reason": "Score 94.3; EMA 12/26: bullish, MACD: bullish, RSI: 75.6, 24h: +14.01%, 7d: +81.08%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -1496,9 +1514,13 @@
     {
       "at": "2026-10-14T16:28:01+00:00",
       "equity": 100.19
+    },
+    {
+      "at": "2026-10-14T17:06:03+00:00",
+      "equity": 99.29
     }
   ],
-  "last_scan": "2026-10-14T16:28:01+00:00",
+  "last_scan": "2026-10-14T17:06:03+00:00",
   "risk": {
     "date": "2026-10-14",
     "start_equity": 98.96531638564679,
