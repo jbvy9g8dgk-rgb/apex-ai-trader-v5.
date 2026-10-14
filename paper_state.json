@@ -1,5 +1,5 @@
 {
-  "cash": 9.960261200318202,
+  "cash": 9.500567912156091,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -43,11 +43,11 @@
     },
     "bitway": {
       "symbol": "BTW",
-      "quantity": 4.658765919396906,
-      "entry": 3.194785,
-      "cost": 14.898639233278244,
-      "opened": "2026-10-14T17:06:03+00:00",
-      "peak_price": 3.194785
+      "quantity": 4.785381924621712,
+      "entry": 3.0645900000000004,
+      "cost": 14.679898825968829,
+      "opened": "2026-10-14T18:14:24+00:00",
+      "peak_price": 3.0645900000000004
     }
   },
   "trades": [
@@ -788,6 +788,24 @@
       "quantity": 4.658765919396906,
       "pnl_aud": null,
       "reason": "Score 94.3; EMA 12/26: bullish, MACD: bullish, RSI: 75.6, 24h: +14.01%, 7d: +81.08%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-14T18:14:24+00:00",
+      "side": "SELL",
+      "symbol": "BTW",
+      "price": 3.05541,
+      "quantity": 4.658765919396906,
+      "pnl_aud": -0.68,
+      "reason": "stop loss"
+    },
+    {
+      "at": "2026-10-14T18:14:24+00:00",
+      "side": "BUY",
+      "symbol": "BTW",
+      "price": 3.0645900000000004,
+      "quantity": 4.785381924621712,
+      "pnl_aud": null,
+      "reason": "Score 97.7; EMA 12/26: bullish, MACD: bullish, RSI: 71.3, 24h: +12.75%, 7d: +71.09%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -1522,9 +1540,13 @@
     {
       "at": "2026-10-14T17:43:28+00:00",
       "equity": 99.0
+    },
+    {
+      "at": "2026-10-14T18:14:24+00:00",
+      "equity": 97.83
     }
   ],
-  "last_scan": "2026-10-14T17:43:28+00:00",
+  "last_scan": "2026-10-14T18:14:24+00:00",
   "risk": {
     "date": "2026-10-14",
     "start_equity": 98.96531638564679,
