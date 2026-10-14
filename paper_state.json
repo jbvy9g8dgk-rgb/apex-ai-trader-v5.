@@ -1,5 +1,5 @@
 {
-  "cash": 12.129694150642727,
+  "cash": 11.697113776386006,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -31,23 +31,23 @@
       "entry": 1.3019500000000002,
       "cost": 15.09099681767614,
       "opened": "2026-10-14T01:59:42+00:00",
-      "peak_price": 1.3019500000000002
-    },
-    "pearl-2": {
-      "symbol": "PRL",
-      "quantity": 5.656546801938419,
-      "entry": 2.714065,
-      "cost": 15.367587931698997,
-      "opened": "2026-10-14T05:23:47+00:00",
-      "peak_price": 2.89
+      "peak_price": 1.31
     },
     "bitway": {
       "symbol": "BTW",
-      "quantity": 4.193775976832737,
-      "entry": 3.6454600000000004,
-      "cost": 15.303530815077174,
-      "opened": "2026-10-14T08:46:08+00:00",
-      "peak_price": 3.72
+      "quantity": 4.355338619350121,
+      "entry": 3.4752050000000003,
+      "cost": 15.150830241205295,
+      "opened": "2026-10-14T12:28:36+00:00",
+      "peak_price": 3.4752050000000003
+    },
+    "pearl-2": {
+      "symbol": "PRL",
+      "quantity": 5.55417954941458,
+      "entry": 2.7240800000000003,
+      "cost": 15.145159456396238,
+      "opened": "2026-10-14T12:28:36+00:00",
+      "peak_price": 2.7240800000000003
     }
   },
   "trades": [
@@ -716,6 +716,42 @@
       "quantity": 4.193775976832737,
       "pnl_aud": null,
       "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 97.9, 24h: +40.34%, 7d: +113.31%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-14T12:28:36+00:00",
+      "side": "SELL",
+      "symbol": "PRL",
+      "price": 2.7159200000000006,
+      "quantity": 5.656546801938419,
+      "pnl_aud": -0.02,
+      "reason": "trailing stop"
+    },
+    {
+      "at": "2026-10-14T12:28:36+00:00",
+      "side": "SELL",
+      "symbol": "BTW",
+      "price": 3.4647950000000005,
+      "quantity": 4.193775976832737,
+      "pnl_aud": -0.79,
+      "reason": "stop loss"
+    },
+    {
+      "at": "2026-10-14T12:28:36+00:00",
+      "side": "BUY",
+      "symbol": "BTW",
+      "price": 3.4752050000000003,
+      "quantity": 4.355338619350121,
+      "pnl_aud": null,
+      "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 89.6, 24h: +28.13%, 7d: +111.02%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-14T12:28:36+00:00",
+      "side": "BUY",
+      "symbol": "PRL",
+      "price": 2.7240800000000003,
+      "quantity": 5.55417954941458,
+      "pnl_aud": null,
+      "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 90.0, 24h: +13.56%, 7d: +45.01%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -1414,9 +1450,13 @@
     {
       "at": "2026-10-14T11:51:37+00:00",
       "equity": 102.28
+    },
+    {
+      "at": "2026-10-14T12:28:36+00:00",
+      "equity": 100.93
     }
   ],
-  "last_scan": "2026-10-14T11:51:37+00:00",
+  "last_scan": "2026-10-14T12:28:36+00:00",
   "risk": {
     "date": "2026-10-14",
     "start_equity": 98.96531638564679,
