@@ -1,5 +1,5 @@
 {
-  "cash": 7.108855012964595,
+  "cash": 22.14714379356171,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -32,14 +32,6 @@
       "cost": 14.606536497698468,
       "opened": "2026-10-15T04:00:10+00:00",
       "peak_price": 1.51
-    },
-    "pyth-network": {
-      "symbol": "PYTH",
-      "quantity": 112.85665349257057,
-      "entry": 0.12633922500000003,
-      "cost": 14.272480360483257,
-      "opened": "2026-10-15T14:45:42+00:00",
-      "peak_price": 0.141061
     },
     "starknet": {
       "symbol": "STRK",
@@ -932,6 +924,15 @@
       "quantity": 108.46727595199353,
       "pnl_aud": null,
       "reason": "Score 91.9; EMA 12/26: bullish, MACD: bullish, RSI: 78.7, 24h: +18.42%, 7d: +56.10%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-15T18:29:43+00:00",
+      "side": "SELL",
+      "symbol": "PYTH",
+      "price": 0.13338462250000002,
+      "quantity": 112.85665349257057,
+      "pnl_aud": 0.77,
+      "reason": "trailing stop"
     }
   ],
   "equity_history": [
@@ -1826,12 +1827,16 @@
     {
       "at": "2026-10-15T17:57:16+00:00",
       "equity": 94.94
+    },
+    {
+      "at": "2026-10-15T18:29:43+00:00",
+      "equity": 94.1
     }
   ],
-  "last_scan": "2026-10-15T17:57:16+00:00",
+  "last_scan": "2026-10-15T18:29:43+00:00",
   "risk": {
     "date": "2026-10-15",
     "start_equity": 99.61711086295858,
-    "locked": false
+    "locked": true
   }
 }
