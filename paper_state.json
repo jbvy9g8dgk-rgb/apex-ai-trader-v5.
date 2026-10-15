@@ -1,5 +1,5 @@
 {
-  "cash": 9.712015276541193,
+  "cash": 9.541410994656296,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -25,14 +25,6 @@
       "opened": "2026-10-14T14:25:09+00:00",
       "peak_price": 796.7
     },
-    "pyth-network": {
-      "symbol": "PYTH",
-      "quantity": 121.59269329092875,
-      "entry": 0.12304429,
-      "cost": 14.97624790178526,
-      "opened": "2026-10-14T21:45:48+00:00",
-      "peak_price": 0.127188
-    },
     "figure-heloc": {
       "symbol": "FIGR_HELOC",
       "quantity": 9.778583502695838,
@@ -48,6 +40,14 @@
       "cost": 14.63042242228356,
       "opened": "2026-10-15T09:44:39+00:00",
       "peak_price": 0.122329
+    },
+    "akedo": {
+      "symbol": "AKE",
+      "quantity": 304.69232238899997,
+      "entry": 0.047333193450000005,
+      "cost": 14.436482699006671,
+      "opened": "2026-10-15T13:22:52+00:00",
+      "peak_price": 0.047333193450000005
     }
   },
   "trades": [
@@ -860,6 +860,24 @@
       "quantity": 120.39396576461259,
       "pnl_aud": null,
       "reason": "Score 80.9; EMA 12/26: bullish, MACD: bullish, RSI: 93.7, 24h: +2.70%, 7d: +11.92%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-15T13:22:52+00:00",
+      "side": "SELL",
+      "symbol": "PYTH",
+      "price": 0.11744257150000001,
+      "quantity": 121.59269329092875,
+      "pnl_aud": -0.71,
+      "reason": "stop loss"
+    },
+    {
+      "at": "2026-10-15T13:22:52+00:00",
+      "side": "BUY",
+      "symbol": "AKE",
+      "price": 0.047333193450000005,
+      "quantity": 304.69232238899997,
+      "pnl_aud": null,
+      "reason": "Score 85.1; EMA 12/26: bullish, MACD: bullish, RSI: 87.3, 24h: +32.16%, 7d: +9.42%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -1722,9 +1740,13 @@
     {
       "at": "2026-10-15T12:37:36+00:00",
       "equity": 97.1
+    },
+    {
+      "at": "2026-10-15T13:22:52+00:00",
+      "equity": 96.21
     }
   ],
-  "last_scan": "2026-10-15T12:37:36+00:00",
+  "last_scan": "2026-10-15T13:22:52+00:00",
   "risk": {
     "date": "2026-10-15",
     "start_equity": 99.61711086295858,
