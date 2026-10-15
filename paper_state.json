@@ -1,5 +1,5 @@
 {
-  "cash": 8.49916771377638,
+  "cash": 7.831918067198027,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -33,14 +33,6 @@
       "opened": "2026-10-15T04:00:10+00:00",
       "peak_price": 1.51
     },
-    "beldex": {
-      "symbol": "BDX",
-      "quantity": 120.39396576461259,
-      "entry": 0.12139982700000002,
-      "cost": 14.63042242228356,
-      "opened": "2026-10-15T09:44:39+00:00",
-      "peak_price": 0.122329
-    },
     "pyth-network": {
       "symbol": "PYTH",
       "quantity": 112.85665349257057,
@@ -48,6 +40,14 @@
       "cost": 14.272480360483257,
       "opened": "2026-10-15T14:45:42+00:00",
       "peak_price": 0.141061
+    },
+    "starknet": {
+      "symbol": "STRK",
+      "quantity": 103.47525612262164,
+      "entry": 0.139284614,
+      "cost": 14.426923618698082,
+      "opened": "2026-10-15T16:05:15+00:00",
+      "peak_price": 0.139284614
     }
   },
   "trades": [
@@ -896,6 +896,24 @@
       "quantity": 112.85665349257057,
       "pnl_aud": null,
       "reason": "Score 87.5; EMA 12/26: bullish, MACD: bullish, RSI: 82.9, 24h: +7.35%, 7d: +9.34%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-15T16:05:15+00:00",
+      "side": "SELL",
+      "symbol": "BDX",
+      "price": 0.1144031375,
+      "quantity": 120.39396576461259,
+      "pnl_aud": -0.87,
+      "reason": "stop loss"
+    },
+    {
+      "at": "2026-10-15T16:05:15+00:00",
+      "side": "BUY",
+      "symbol": "STRK",
+      "price": 0.139284614,
+      "quantity": 103.47525612262164,
+      "pnl_aud": null,
+      "reason": "Score 90.5; EMA 12/26: bullish, MACD: bullish, RSI: 80.4, 24h: +25.38%, 7d: +56.10%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -1774,9 +1792,13 @@
     {
       "at": "2026-10-15T15:28:19+00:00",
       "equity": 96.95
+    },
+    {
+      "at": "2026-10-15T16:05:15+00:00",
+      "equity": 96.14
     }
   ],
-  "last_scan": "2026-10-15T15:28:19+00:00",
+  "last_scan": "2026-10-15T16:05:15+00:00",
   "risk": {
     "date": "2026-10-15",
     "start_equity": 99.61711086295858,
