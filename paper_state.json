@@ -1,5 +1,5 @@
 {
-  "cash": 9.541410994656296,
+  "cash": 8.49916771377638,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -41,13 +41,13 @@
       "opened": "2026-10-15T09:44:39+00:00",
       "peak_price": 0.122329
     },
-    "akedo": {
-      "symbol": "AKE",
-      "quantity": 304.69232238899997,
-      "entry": 0.047333193450000005,
-      "cost": 14.436482699006671,
-      "opened": "2026-10-15T13:22:52+00:00",
-      "peak_price": 0.04742673
+    "pyth-network": {
+      "symbol": "PYTH",
+      "quantity": 112.85665349257057,
+      "entry": 0.12633922500000003,
+      "cost": 14.272480360483257,
+      "opened": "2026-10-15T14:45:42+00:00",
+      "peak_price": 0.12633922500000003
     }
   },
   "trades": [
@@ -878,6 +878,24 @@
       "quantity": 304.69232238899997,
       "pnl_aud": null,
       "reason": "Score 85.1; EMA 12/26: bullish, MACD: bullish, RSI: 87.3, 24h: +32.16%, 7d: +9.42%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-15T14:45:42+00:00",
+      "side": "SELL",
+      "symbol": "AKE",
+      "price": 0.043465094415,
+      "quantity": 304.69232238899997,
+      "pnl_aud": -1.21,
+      "reason": "stop loss"
+    },
+    {
+      "at": "2026-10-15T14:45:42+00:00",
+      "side": "BUY",
+      "symbol": "PYTH",
+      "price": 0.12633922500000003,
+      "quantity": 112.85665349257057,
+      "pnl_aud": null,
+      "reason": "Score 87.5; EMA 12/26: bullish, MACD: bullish, RSI: 82.9, 24h: +7.35%, 7d: +9.34%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -1748,9 +1766,13 @@
     {
       "at": "2026-10-15T14:07:48+00:00",
       "equity": 96.12
+    },
+    {
+      "at": "2026-10-15T14:45:42+00:00",
+      "equity": 95.11
     }
   ],
-  "last_scan": "2026-10-15T14:07:48+00:00",
+  "last_scan": "2026-10-15T14:45:42+00:00",
   "risk": {
     "date": "2026-10-15",
     "start_equity": 99.61711086295858,
