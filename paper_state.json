@@ -1,5 +1,5 @@
 {
-  "cash": 6.72226662814686,
+  "cash": 5.955049930358355,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -25,14 +25,6 @@
       "opened": "2026-10-15T04:00:10+00:00",
       "peak_price": 1.51
     },
-    "pyth-network": {
-      "symbol": "PYTH",
-      "quantity": 103.97377163712697,
-      "entry": 0.1349671475,
-      "cost": 14.04707641605211,
-      "opened": "2026-10-16T00:23:22+00:00",
-      "peak_price": 0.136967
-    },
     "near": {
       "symbol": "NEAR",
       "quantity": 1.835751086722868,
@@ -41,13 +33,21 @@
       "opened": "2026-10-16T00:23:22+00:00",
       "peak_price": 7.74
     },
-    "akedo": {
-      "symbol": "AKE",
-      "quantity": 315.77968541003276,
-      "entry": 0.04424635012,
-      "cost": 13.986070619957198,
-      "opened": "2026-10-16T03:12:24+00:00",
-      "peak_price": 0.04581142
+    "arbitrum": {
+      "symbol": "ARB",
+      "quantity": 47.53619334679264,
+      "entry": 0.28925323000000003,
+      "cost": 13.763747464931745,
+      "opened": "2026-10-16T11:48:29+00:00",
+      "peak_price": 0.28925323000000003
+    },
+    "aerodrome-finance": {
+      "symbol": "AERO",
+      "quantity": 10.397170152768213,
+      "entry": 1.3219800000000002,
+      "cost": 13.75859584955508,
+      "opened": "2026-10-16T11:48:29+00:00",
+      "peak_price": 1.3219800000000002
     }
   },
   "trades": [
@@ -1004,6 +1004,42 @@
       "quantity": 315.77968541003276,
       "pnl_aud": null,
       "reason": "Score 100; EMA 12/26: bullish, MACD: bullish, RSI: 67.5, 24h: +13.62%, 7d: +16.52%, Confirmations: 5/5"
+    },
+    {
+      "at": "2026-10-16T11:48:29+00:00",
+      "side": "SELL",
+      "symbol": "PYTH",
+      "price": 0.12889736350000003,
+      "quantity": 103.97377163712697,
+      "pnl_aud": -0.66,
+      "reason": "stop loss"
+    },
+    {
+      "at": "2026-10-16T11:48:29+00:00",
+      "side": "SELL",
+      "symbol": "AKE",
+      "price": 0.042371197725000004,
+      "quantity": 315.77968541003276,
+      "pnl_aud": -0.62,
+      "reason": "stop loss"
+    },
+    {
+      "at": "2026-10-16T11:48:29+00:00",
+      "side": "BUY",
+      "symbol": "ARB",
+      "price": 0.28925323000000003,
+      "quantity": 47.53619334679264,
+      "pnl_aud": null,
+      "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 95.3, 24h: +14.34%, 7d: +11.42%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-16T11:48:29+00:00",
+      "side": "BUY",
+      "symbol": "AERO",
+      "price": 1.3219800000000002,
+      "quantity": 10.397170152768213,
+      "pnl_aud": null,
+      "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 88.0, 24h: +7.82%, 7d: +12.44%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -2018,9 +2054,13 @@
     {
       "at": "2026-10-16T11:13:16+00:00",
       "equity": 92.26
+    },
+    {
+      "at": "2026-10-16T11:48:29+00:00",
+      "equity": 91.69
     }
   ],
-  "last_scan": "2026-10-16T11:13:16+00:00",
+  "last_scan": "2026-10-16T11:48:29+00:00",
   "risk": {
     "date": "2026-10-16",
     "start_equity": 93.68224031252527,
