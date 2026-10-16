@@ -1,5 +1,5 @@
 {
-  "cash": 49.57017551461291,
+  "cash": 7.428944297836102,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -15,7 +15,7 @@
       "entry": 794.0192450000001,
       "cost": 15.019726969036746,
       "opened": "2026-10-14T14:25:09+00:00",
-      "peak_price": 796.7
+      "peak_price": 797.08
     },
     "figure-heloc": {
       "symbol": "FIGR_HELOC",
@@ -24,6 +24,30 @@
       "cost": 14.606536497698468,
       "opened": "2026-10-15T04:00:10+00:00",
       "peak_price": 1.51
+    },
+    "akedo": {
+      "symbol": "AKE",
+      "quantity": 301.3270826542325,
+      "entry": 0.04658823769,
+      "cost": 14.05233604687879,
+      "opened": "2026-10-16T00:23:22+00:00",
+      "peak_price": 0.04658823769
+    },
+    "pyth-network": {
+      "symbol": "PYTH",
+      "quantity": 103.97377163712697,
+      "entry": 0.1349671475,
+      "cost": 14.04707641605211,
+      "opened": "2026-10-16T00:23:22+00:00",
+      "peak_price": 0.1349671475
+    },
+    "near": {
+      "symbol": "NEAR",
+      "quantity": 1.835751086722868,
+      "entry": 7.641445,
+      "cost": 14.041818753845908,
+      "opened": "2026-10-16T00:23:22+00:00",
+      "peak_price": 7.641445
     }
   },
   "trades": [
@@ -935,6 +959,33 @@
       "quantity": 72.78806643416868,
       "pnl_aud": -0.63,
       "reason": "stop loss"
+    },
+    {
+      "at": "2026-10-16T00:23:22+00:00",
+      "side": "BUY",
+      "symbol": "AKE",
+      "price": 0.04658823769,
+      "quantity": 301.3270826542325,
+      "pnl_aud": null,
+      "reason": "Score 97.6; EMA 12/26: bullish, MACD: bullish, RSI: 71.6, 24h: +19.95%, 7d: +22.73%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-16T00:23:22+00:00",
+      "side": "BUY",
+      "symbol": "PYTH",
+      "price": 0.1349671475,
+      "quantity": 103.97377163712697,
+      "pnl_aud": null,
+      "reason": "Score 87.8; EMA 12/26: bullish, MACD: bullish, RSI: 83.7, 24h: +9.72%, 7d: +12.75%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-16T00:23:22+00:00",
+      "side": "BUY",
+      "symbol": "NEAR",
+      "price": 7.641445,
+      "quantity": 1.835751086722868,
+      "pnl_aud": null,
+      "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 91.3, 24h: +9.79%, 7d: +15.90%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -1873,12 +1924,16 @@
     {
       "at": "2026-10-15T23:50:39+00:00",
       "equity": 93.71
+    },
+    {
+      "at": "2026-10-16T00:23:22+00:00",
+      "equity": 93.58
     }
   ],
-  "last_scan": "2026-10-15T23:50:39+00:00",
+  "last_scan": "2026-10-16T00:23:22+00:00",
   "risk": {
-    "date": "2026-10-15",
-    "start_equity": 99.61711086295858,
-    "locked": true
+    "date": "2026-10-16",
+    "start_equity": 93.68224031252527,
+    "locked": false
   }
 }
