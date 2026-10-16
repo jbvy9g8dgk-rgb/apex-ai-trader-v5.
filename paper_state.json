@@ -1,5 +1,5 @@
 {
-  "cash": 5.955049930358355,
+  "cash": 5.411350075766009,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -25,14 +25,6 @@
       "opened": "2026-10-15T04:00:10+00:00",
       "peak_price": 1.51
     },
-    "near": {
-      "symbol": "NEAR",
-      "quantity": 1.835751086722868,
-      "entry": 7.641445,
-      "cost": 14.041818753845908,
-      "opened": "2026-10-16T00:23:22+00:00",
-      "peak_price": 7.74
-    },
     "arbitrum": {
       "symbol": "ARB",
       "quantity": 47.53619334679264,
@@ -41,13 +33,21 @@
       "opened": "2026-10-16T11:48:29+00:00",
       "peak_price": 0.290356
     },
-    "aerodrome-finance": {
-      "symbol": "AERO",
-      "quantity": 10.397170152768213,
-      "entry": 1.3219800000000002,
-      "cost": 13.75859584955508,
-      "opened": "2026-10-16T11:48:29+00:00",
-      "peak_price": 1.3219800000000002
+    "bitway": {
+      "symbol": "BTW",
+      "quantity": 4.712598814246345,
+      "entry": 2.8542750000000003,
+      "cost": 13.464504033513519,
+      "opened": "2026-10-16T16:13:32+00:00",
+      "peak_price": 2.8542750000000003
+    },
+    "injective-protocol": {
+      "symbol": "INJ",
+      "quantity": 1.0359474987498405,
+      "entry": 12.979440000000002,
+      "cost": 13.459464421576804,
+      "opened": "2026-10-16T16:13:32+00:00",
+      "peak_price": 12.979440000000002
     }
   },
   "trades": [
@@ -1040,6 +1040,42 @@
       "quantity": 10.397170152768213,
       "pnl_aud": null,
       "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 88.0, 24h: +7.82%, 7d: +12.44%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-16T16:13:32+00:00",
+      "side": "SELL",
+      "symbol": "NEAR",
+      "price": 7.259095,
+      "quantity": 1.835751086722868,
+      "pnl_aud": -0.73,
+      "reason": "stop loss"
+    },
+    {
+      "at": "2026-10-16T16:13:32+00:00",
+      "side": "SELL",
+      "symbol": "AERO",
+      "price": 1.25811,
+      "quantity": 10.397170152768213,
+      "pnl_aud": -0.69,
+      "reason": "stop loss"
+    },
+    {
+      "at": "2026-10-16T16:13:32+00:00",
+      "side": "BUY",
+      "symbol": "BTW",
+      "price": 2.8542750000000003,
+      "quantity": 4.712598814246345,
+      "pnl_aud": null,
+      "reason": "Score 93.5; EMA 12/26: bullish, MACD: bullish, RSI: 72.6, 24h: +3.74%, 7d: +24.39%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-16T16:13:32+00:00",
+      "side": "BUY",
+      "symbol": "INJ",
+      "price": 12.979440000000002,
+      "quantity": 1.0359474987498405,
+      "pnl_aud": null,
+      "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 94.8, 24h: +12.16%, 7d: +30.07%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -2082,9 +2118,13 @@
     {
       "at": "2026-10-16T15:42:54+00:00",
       "equity": 90.01
+    },
+    {
+      "at": "2026-10-16T16:13:32+00:00",
+      "equity": 89.7
     }
   ],
-  "last_scan": "2026-10-16T15:42:54+00:00",
+  "last_scan": "2026-10-16T16:13:32+00:00",
   "risk": {
     "date": "2026-10-16",
     "start_equity": 93.68224031252527,
