@@ -1,5 +1,5 @@
 {
-  "cash": 43.56833700818115,
+  "cash": 4.080934395789344,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -24,6 +24,30 @@
       "cost": 14.606536497698468,
       "opened": "2026-10-15T04:00:10+00:00",
       "peak_price": 1.51
+    },
+    "bitway": {
+      "symbol": "BTW",
+      "quantity": 4.811186549477568,
+      "entry": 2.734095,
+      "cost": 13.167395330082863,
+      "opened": "2026-10-17T00:39:27+00:00",
+      "peak_price": 2.734095
+    },
+    "celestia": {
+      "symbol": "TIA",
+      "quantity": 13.245655108975818,
+      "entry": 0.9927268600000001,
+      "cost": 13.162466922581498,
+      "opened": "2026-10-17T00:39:27+00:00",
+      "peak_price": 0.9927268600000001
+    },
+    "injective-protocol": {
+      "symbol": "INJ",
+      "quantity": 1.0533474237891707,
+      "entry": 12.478690000000002,
+      "cost": 13.15754035972745,
+      "opened": "2026-10-17T00:39:27+00:00",
+      "peak_price": 12.478690000000002
     }
   },
   "trades": [
@@ -1079,6 +1103,33 @@
       "quantity": 1.0359474987498405,
       "pnl_aud": -0.67,
       "reason": "stop loss"
+    },
+    {
+      "at": "2026-10-17T00:39:27+00:00",
+      "side": "BUY",
+      "symbol": "BTW",
+      "price": 2.734095,
+      "quantity": 4.811186549477568,
+      "pnl_aud": null,
+      "reason": "Score 93.0; EMA 12/26: bullish, MACD: bullish, RSI: 69.4, 24h: +2.08%, 7d: +23.16%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-17T00:39:27+00:00",
+      "side": "BUY",
+      "symbol": "TIA",
+      "price": 0.9927268600000001,
+      "quantity": 13.245655108975818,
+      "pnl_aud": null,
+      "reason": "Score 86.4; EMA 12/26: bullish, MACD: bullish, RSI: 85.5, 24h: +16.23%, 7d: +45.38%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-17T00:39:27+00:00",
+      "side": "BUY",
+      "symbol": "INJ",
+      "price": 12.478690000000002,
+      "quantity": 1.0533474237891707,
+      "pnl_aud": null,
+      "reason": "Score 78.4; EMA 12/26: bullish, MACD: bullish, RSI: 84.7, 24h: +0.77%, 7d: +25.95%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -2185,12 +2236,16 @@
     {
       "at": "2026-10-16T23:59:42+00:00",
       "equity": 87.76
+    },
+    {
+      "at": "2026-10-17T00:39:27+00:00",
+      "equity": 87.68
     }
   ],
-  "last_scan": "2026-10-16T23:59:42+00:00",
+  "last_scan": "2026-10-17T00:39:27+00:00",
   "risk": {
-    "date": "2026-10-16",
-    "start_equity": 93.68224031252527,
-    "locked": true
+    "date": "2026-10-17",
+    "start_equity": 87.78263553388575,
+    "locked": false
   }
 }
