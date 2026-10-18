@@ -1,5 +1,5 @@
 {
-  "cash": 6.851711945029793,
+  "cash": 5.727317228741729,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -15,7 +15,7 @@
       "entry": 794.0192450000001,
       "cost": 15.019726969036746,
       "opened": "2026-10-14T14:25:09+00:00",
-      "peak_price": 819.5
+      "peak_price": 832.79
     },
     "figure-heloc": {
       "symbol": "FIGR_HELOC",
@@ -23,7 +23,7 @@
       "entry": 1.492235,
       "cost": 14.606536497698468,
       "opened": "2026-10-15T04:00:10+00:00",
-      "peak_price": 1.51
+      "peak_price": 1.54
     },
     "injective-protocol": {
       "symbol": "INJ",
@@ -43,11 +43,11 @@
     },
     "bitway": {
       "symbol": "BTW",
-      "quantity": 3.7053340019950847,
-      "entry": 3.655475,
-      "cost": 13.558300566753923,
-      "opened": "2026-10-17T17:49:57+00:00",
-      "peak_price": 3.81
+      "quantity": 4.016732696470897,
+      "entry": 3.4051,
+      "cost": 13.691053881257805,
+      "opened": "2026-10-18T00:37:26+00:00",
+      "peak_price": 3.4051
     }
   },
   "trades": [
@@ -1220,6 +1220,24 @@
       "quantity": 3.7053340019950847,
       "pnl_aud": null,
       "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 93.5, 24h: +34.79%, 7d: +47.12%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-18T00:37:26+00:00",
+      "side": "SELL",
+      "symbol": "BTW",
+      "price": 3.3949000000000003,
+      "quantity": 3.7053340019950847,
+      "pnl_aud": -0.99,
+      "reason": "stop loss"
+    },
+    {
+      "at": "2026-10-18T00:37:26+00:00",
+      "side": "BUY",
+      "symbol": "BTW",
+      "price": 3.4051,
+      "quantity": 4.016732696470897,
+      "pnl_aud": null,
+      "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 89.0, 24h: +24.48%, 7d: +53.47%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -2514,12 +2532,16 @@
     {
       "at": "2026-10-17T23:58:26+00:00",
       "equity": 91.06
+    },
+    {
+      "at": "2026-10-18T00:37:26+00:00",
+      "equity": 91.24
     }
   ],
-  "last_scan": "2026-10-17T23:58:26+00:00",
+  "last_scan": "2026-10-18T00:37:26+00:00",
   "risk": {
-    "date": "2026-10-17",
-    "start_equity": 87.78263553388575,
+    "date": "2026-10-18",
+    "start_equity": 91.30516898353224,
     "locked": false
   }
 }
