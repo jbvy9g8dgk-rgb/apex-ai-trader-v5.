@@ -1,5 +1,5 @@
 {
-  "cash": 3.914030823478509,
+  "cash": 5.967295297209118,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -8,14 +8,6 @@
       "cost": 14.515633755868963,
       "opened": "2026-10-13T00:33:43+00:00",
       "peak_price": 1.45
-    },
-    "monero": {
-      "symbol": "XMR",
-      "quantity": 0.018897177041080352,
-      "entry": 794.0192450000001,
-      "cost": 15.019726969036746,
-      "opened": "2026-10-14T14:25:09+00:00",
-      "peak_price": 869.76
     },
     "figure-heloc": {
       "symbol": "FIGR_HELOC",
@@ -48,6 +40,14 @@
       "cost": 13.605855316671175,
       "opened": "2026-10-18T16:54:45+00:00",
       "peak_price": 1.652475
+    },
+    "monero": {
+      "symbol": "XMR",
+      "quantity": 0.016315145063523055,
+      "entry": 824.5149200000001,
+      "cost": 13.465532607365946,
+      "opened": "2026-10-18T19:48:30+00:00",
+      "peak_price": 824.5149200000001
     }
   },
   "trades": [
@@ -1292,6 +1292,24 @@
       "quantity": 8.225397088378076,
       "pnl_aud": null,
       "reason": "Score 69.2; EMA 12/26: bullish, MACD: bullish, RSI: 98.5, 24h: +0.08%, 7d: +0.10%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-18T19:48:30+00:00",
+      "side": "SELL",
+      "symbol": "XMR",
+      "price": 822.04508,
+      "quantity": 0.018897177041080352,
+      "pnl_aud": 0.5,
+      "reason": "trailing stop"
+    },
+    {
+      "at": "2026-10-18T19:48:30+00:00",
+      "side": "BUY",
+      "symbol": "XMR",
+      "price": 824.5149200000001,
+      "quantity": 0.016315145063523055,
+      "pnl_aud": null,
+      "reason": "Score 78.4; EMA 12/26: bullish, MACD: bullish, RSI: 87.4, 24h: +1.89%, 7d: +9.30%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -2734,9 +2752,13 @@
     {
       "at": "2026-10-18T19:18:58+00:00",
       "equity": 90.34
+    },
+    {
+      "at": "2026-10-18T19:48:30+00:00",
+      "equity": 89.74
     }
   ],
-  "last_scan": "2026-10-18T19:18:58+00:00",
+  "last_scan": "2026-10-18T19:48:30+00:00",
   "risk": {
     "date": "2026-10-18",
     "start_equity": 91.30516898353224,
