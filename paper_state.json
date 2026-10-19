@@ -1,5 +1,5 @@
 {
-  "cash": 5.579356487700849,
+  "cash": 7.072110906130385,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -8,14 +8,6 @@
       "cost": 14.515633755868963,
       "opened": "2026-10-13T00:33:43+00:00",
       "peak_price": 1.45
-    },
-    "figure-heloc": {
-      "symbol": "FIGR_HELOC",
-      "quantity": 9.778583502695838,
-      "entry": 1.492235,
-      "cost": 14.606536497698468,
-      "opened": "2026-10-15T04:00:10+00:00",
-      "peak_price": 1.55
     },
     "akedo": {
       "symbol": "AKE",
@@ -39,7 +31,7 @@
       "entry": 824.5149200000001,
       "cost": 13.465532607365946,
       "opened": "2026-10-18T19:48:30+00:00",
-      "peak_price": 857.65
+      "peak_price": 867.65
     },
     "pearl-2": {
       "symbol": "PRL",
@@ -48,6 +40,14 @@
       "cost": 13.458870941165738,
       "opened": "2026-10-18T22:16:34+00:00",
       "peak_price": 2.73
+    },
+    "bitway": {
+      "symbol": "BTW",
+      "quantity": 4.0403837637767595,
+      "entry": 3.3450100000000003,
+      "cost": 13.52863921776457,
+      "opened": "2026-10-19T00:40:50+00:00",
+      "peak_price": 3.3450100000000003
     }
   },
   "trades": [
@@ -1328,6 +1328,24 @@
       "quantity": 5.00943566577376,
       "pnl_aud": null,
       "reason": "Score 77.2; EMA 12/26: bullish, MACD: bullish, RSI: 89.5, 24h: +0.66%, 7d: +39.25%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-19T00:40:50+00:00",
+      "side": "SELL",
+      "symbol": "FIGR_HELOC",
+      "price": 1.5376900000000002,
+      "quantity": 9.778583502695838,
+      "pnl_aud": 0.41,
+      "reason": "momentum reversal"
+    },
+    {
+      "at": "2026-10-19T00:40:50+00:00",
+      "side": "BUY",
+      "symbol": "BTW",
+      "price": 3.3450100000000003,
+      "quantity": 4.0403837637767595,
+      "pnl_aud": null,
+      "reason": "Score 81.7; EMA 12/26: bullish, MACD: bullish, RSI: 82.0, 24h: +1.37%, 7d: +49.97%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -2810,9 +2828,13 @@
     {
       "at": "2026-10-19T00:00:08+00:00",
       "equity": 90.23
+    },
+    {
+      "at": "2026-10-19T00:40:50+00:00",
+      "equity": 90.16
     }
   ],
-  "last_scan": "2026-10-19T00:00:08+00:00",
+  "last_scan": "2026-10-19T00:40:50+00:00",
   "risk": {
     "date": "2026-10-19",
     "start_equity": 90.23266301828097,
