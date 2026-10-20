@@ -1,5 +1,5 @@
 {
-  "cash": 3.7079549971284216,
+  "cash": 4.088762631137092,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -39,15 +39,15 @@
       "entry": 0.7672561605,
       "cost": 12.836164392521306,
       "opened": "2026-10-20T02:43:43+00:00",
-      "peak_price": 0.827565
+      "peak_price": 0.829378
     },
-    "pearl-2": {
-      "symbol": "PEARL",
-      "quantity": 4.5075630839460405,
-      "entry": 2.82423,
-      "cost": 12.743125283461499,
-      "opened": "2026-10-20T11:24:32+00:00",
-      "peak_price": 3.14
+    "akedo": {
+      "symbol": "AKE",
+      "quantity": 295.7881400428231,
+      "entry": 0.043815975525,
+      "cost": 12.97320615060631,
+      "opened": "2026-10-20T19:18:26+00:00",
+      "peak_price": 0.043815975525
     }
   },
   "trades": [
@@ -1436,6 +1436,24 @@
       "quantity": 4.5075630839460405,
       "pnl_aud": null,
       "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 88.1, 24h: +6.53%, 7d: +17.39%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-20T19:18:26+00:00",
+      "side": "SELL",
+      "symbol": "PEARL",
+      "price": 2.9655450000000005,
+      "quantity": 4.5075630839460405,
+      "pnl_aud": 0.61,
+      "reason": "trailing stop"
+    },
+    {
+      "at": "2026-10-20T19:18:26+00:00",
+      "side": "BUY",
+      "symbol": "AKE",
+      "price": 0.043815975525,
+      "quantity": 295.7881400428231,
+      "pnl_aud": null,
+      "reason": "Score 88.5; EMA 12/26: bullish, MACD: bullish, RSI: 78.3, 24h: +3.52%, 7d: +23.69%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -3182,9 +3200,13 @@
     {
       "at": "2026-10-20T18:33:25+00:00",
       "equity": 86.76
+    },
+    {
+      "at": "2026-10-20T19:18:26+00:00",
+      "equity": 86.46
     }
   ],
-  "last_scan": "2026-10-20T18:33:25+00:00",
+  "last_scan": "2026-10-20T19:18:26+00:00",
   "risk": {
     "date": "2026-10-20",
     "start_equity": 85.78712489702468,
