@@ -1,5 +1,5 @@
 {
-  "cash": 7.513902481456729,
+  "cash": 7.652923460815746,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -33,14 +33,6 @@
       "opened": "2026-10-21T09:09:31+00:00",
       "peak_price": 6.67e-06
     },
-    "venice-token": {
-      "symbol": "VVV",
-      "quantity": 0.36110147232113976,
-      "entry": 37.486145,
-      "cost": 13.549838453294875,
-      "opened": "2026-10-21T13:15:36+00:00",
-      "peak_price": 39.94
-    },
     "lighter": {
       "symbol": "LIT",
       "quantity": 2.5627055900518885,
@@ -48,6 +40,14 @@
       "cost": 13.385095392024947,
       "opened": "2026-10-22T07:09:48+00:00",
       "peak_price": 5.33
+    },
+    "memecore": {
+      "symbol": "M",
+      "quantity": 10.573219511962742,
+      "entry": 1.251875,
+      "cost": 13.249585525714895,
+      "opened": "2026-10-22T15:03:31+00:00",
+      "peak_price": 1.251875
     }
   },
   "trades": [
@@ -1544,6 +1544,24 @@
       "quantity": 2.5627055900518885,
       "pnl_aud": null,
       "reason": "Score 88.3; EMA 12/26: bullish, MACD: bullish, RSI: 83.1, 24h: +6.88%, 7d: +23.93%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-22T15:03:31+00:00",
+      "side": "SELL",
+      "symbol": "VVV",
+      "price": 37.114245000000004,
+      "quantity": 0.36110147232113976,
+      "pnl_aud": -0.16,
+      "reason": "trailing stop"
+    },
+    {
+      "at": "2026-10-22T15:03:31+00:00",
+      "side": "BUY",
+      "symbol": "M",
+      "price": 1.251875,
+      "quantity": 10.573219511962742,
+      "pnl_aud": null,
+      "reason": "Score 85.1; EMA 12/26: bullish, MACD: bullish, RSI: 86.0, 24h: +14.52%, 7d: +9.38%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -3558,9 +3576,13 @@
     {
       "at": "2026-10-22T14:18:15+00:00",
       "equity": 89.05
+    },
+    {
+      "at": "2026-10-22T15:03:31+00:00",
+      "equity": 88.3
     }
   ],
-  "last_scan": "2026-10-22T14:18:15+00:00",
+  "last_scan": "2026-10-22T15:03:31+00:00",
   "risk": {
     "date": "2026-10-22",
     "start_equity": 90.60256974078386,
