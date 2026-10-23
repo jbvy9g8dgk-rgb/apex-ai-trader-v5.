@@ -1,5 +1,5 @@
 {
-  "cash": 4.904414920082324,
+  "cash": 4.403765958541628,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -41,13 +41,13 @@
       "opened": "2026-10-23T04:43:04+00:00",
       "peak_price": 1.3
     },
-    "dash": {
-      "symbol": "DASH",
-      "quantity": 0.1634923071754465,
-      "entry": 77.23568,
-      "cost": 12.640066958983951,
-      "opened": "2026-10-23T08:06:06+00:00",
-      "peak_price": 77.74
+    "akedo": {
+      "symbol": "AKE",
+      "quantity": 223.42306338702966,
+      "entry": 0.056031922,
+      "cost": 12.531342484363803,
+      "opened": "2026-10-23T22:56:28+00:00",
+      "peak_price": 0.056031922
     }
   },
   "trades": [
@@ -1670,6 +1670,24 @@
       "quantity": 0.1634923071754465,
       "pnl_aud": null,
       "reason": "Score 84.7; EMA 12/26: bullish, MACD: bullish, RSI: 95.0, 24h: +6.62%, 7d: +8.82%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-23T22:56:28+00:00",
+      "side": "SELL",
+      "symbol": "DASH",
+      "price": 73.659345,
+      "quantity": 0.1634923071754465,
+      "pnl_aud": -0.61,
+      "reason": "stop loss"
+    },
+    {
+      "at": "2026-10-23T22:56:28+00:00",
+      "side": "BUY",
+      "symbol": "AKE",
+      "price": 0.056031922,
+      "quantity": 223.42306338702966,
+      "pnl_aud": null,
+      "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 93.8, 24h: +25.55%, 7d: +33.14%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -3888,9 +3906,13 @@
     {
       "at": "2026-10-23T22:23:05+00:00",
       "equity": 84.12
+    },
+    {
+      "at": "2026-10-23T22:56:28+00:00",
+      "equity": 83.51
     }
   ],
-  "last_scan": "2026-10-23T22:23:05+00:00",
+  "last_scan": "2026-10-23T22:56:28+00:00",
   "risk": {
     "date": "2026-10-23",
     "start_equity": 85.85125570780967,
