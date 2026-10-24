@@ -1,5 +1,5 @@
 {
-  "cash": 3.006317519834182,
+  "cash": 5.032091562718016,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -33,14 +33,6 @@
       "opened": "2026-10-22T21:50:43+00:00",
       "peak_price": 1.48222
     },
-    "memecore": {
-      "symbol": "M",
-      "quantity": 10.123502942616025,
-      "entry": 1.251875,
-      "cost": 12.686033606533723,
-      "opened": "2026-10-23T04:43:04+00:00",
-      "peak_price": 1.4
-    },
     "pepe": {
       "symbol": "PEPE",
       "quantity": 1896255.1097276744,
@@ -48,6 +40,14 @@
       "cost": 12.375500833169125,
       "opened": "2026-10-24T00:30:16+00:00",
       "peak_price": 6.519765000000001e-06
+    },
+    "memecore": {
+      "symbol": "M",
+      "quantity": 8.669734499882004,
+      "entry": 1.44216,
+      "cost": 12.515647450656182,
+      "opened": "2026-10-24T07:21:18+00:00",
+      "peak_price": 1.44216
     }
   },
   "trades": [
@@ -1706,6 +1706,24 @@
       "quantity": 1896255.1097276744,
       "pnl_aud": null,
       "reason": "Score 86.2; EMA 12/26: bullish, MACD: bullish, RSI: 81.9, 24h: +3.83%, 7d: +12.88%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-24T07:21:18+00:00",
+      "side": "SELL",
+      "symbol": "M",
+      "price": 1.43784,
+      "quantity": 10.123502942616025,
+      "pnl_aud": 1.86,
+      "reason": "take profit"
+    },
+    {
+      "at": "2026-10-24T07:21:18+00:00",
+      "side": "BUY",
+      "symbol": "M",
+      "price": 1.44216,
+      "quantity": 8.669734499882004,
+      "pnl_aud": null,
+      "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 92.4, 24h: +12.52%, 7d: +27.94%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -3980,9 +3998,13 @@
     {
       "at": "2026-10-24T06:30:09+00:00",
       "equity": 83.1
+    },
+    {
+      "at": "2026-10-24T07:21:18+00:00",
+      "equity": 83.41
     }
   ],
-  "last_scan": "2026-10-24T06:30:09+00:00",
+  "last_scan": "2026-10-24T07:21:18+00:00",
   "risk": {
     "date": "2026-10-24",
     "start_equity": 82.53083625387087,
