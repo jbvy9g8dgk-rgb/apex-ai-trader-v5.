@@ -1,5 +1,5 @@
 {
-  "cash": 3.5566412732546304,
+  "cash": 3.1028329118667575,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -43,11 +43,11 @@
     },
     "memecore": {
       "symbol": "M",
-      "quantity": 8.477353939814405,
-      "entry": 1.452175,
-      "cost": 12.322912059007532,
-      "opened": "2026-10-24T14:21:12+00:00",
-      "peak_price": 1.452175
+      "quantity": 8.760739117623888,
+      "entry": 1.392085,
+      "cost": 12.207889208072006,
+      "opened": "2026-10-24T15:19:41+00:00",
+      "peak_price": 1.392085
     }
   },
   "trades": [
@@ -1778,6 +1778,24 @@
       "quantity": 8.477353939814405,
       "pnl_aud": null,
       "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 95.4, 24h: +14.15%, 7d: +42.09%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-24T15:19:41+00:00",
+      "side": "SELL",
+      "symbol": "M",
+      "price": 1.387915,
+      "quantity": 8.477353939814405,
+      "pnl_aud": -0.57,
+      "reason": "stop loss"
+    },
+    {
+      "at": "2026-10-24T15:19:41+00:00",
+      "side": "BUY",
+      "symbol": "M",
+      "price": 1.392085,
+      "quantity": 8.760739117623888,
+      "pnl_aud": null,
+      "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 91.0, 24h: +9.00%, 7d: +30.79%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -4112,9 +4130,13 @@
     {
       "at": "2026-10-24T14:54:22+00:00",
       "equity": 81.8
+    },
+    {
+      "at": "2026-10-24T15:19:41+00:00",
+      "equity": 81.36
     }
   ],
-  "last_scan": "2026-10-24T14:54:22+00:00",
+  "last_scan": "2026-10-24T15:19:41+00:00",
   "risk": {
     "date": "2026-10-24",
     "start_equity": 82.53083625387087,
