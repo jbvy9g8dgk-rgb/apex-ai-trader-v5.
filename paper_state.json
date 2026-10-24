@@ -1,5 +1,5 @@
 {
-  "cash": 15.895696909953909,
+  "cash": 3.3398472383227897,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -39,7 +39,15 @@
       "entry": 1.44216,
       "cost": 12.515647450656182,
       "opened": "2026-10-24T07:21:18+00:00",
-      "peak_price": 1.6
+      "peak_price": 1.61
+    },
+    "beldex": {
+      "symbol": "BDX",
+      "quantity": 114.71441276687143,
+      "entry": 0.10934377,
+      "cost": 12.555849671631119,
+      "opened": "2026-10-24T13:25:52+00:00",
+      "peak_price": 0.10934377
     }
   },
   "trades": [
@@ -1743,6 +1751,15 @@
       "quantity": 269.2516504832447,
       "pnl_aud": -0.96,
       "reason": "stop loss"
+    },
+    {
+      "at": "2026-10-24T13:25:52+00:00",
+      "side": "BUY",
+      "symbol": "BDX",
+      "price": 0.10934377,
+      "quantity": 114.71441276687143,
+      "pnl_aud": null,
+      "reason": "Score 74.6; EMA 12/26: bullish, MACD: bullish, RSI: 93.0, 24h: +0.78%, 7d: +6.44%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -4061,9 +4078,13 @@
     {
       "at": "2026-10-24T12:50:02+00:00",
       "equity": 83.62
+    },
+    {
+      "at": "2026-10-24T13:25:52+00:00",
+      "equity": 83.67
     }
   ],
-  "last_scan": "2026-10-24T12:50:02+00:00",
+  "last_scan": "2026-10-24T13:25:52+00:00",
   "risk": {
     "date": "2026-10-24",
     "start_equity": 82.53083625387087,
