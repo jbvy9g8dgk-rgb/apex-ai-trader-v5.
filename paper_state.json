@@ -1,5 +1,5 @@
 {
-  "cash": 2.3723223356278407,
+  "cash": 3.287270692990152,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -25,14 +25,6 @@
       "opened": "2026-10-19T05:43:12+00:00",
       "peak_price": 0.202316
     },
-    "figure-heloc": {
-      "symbol": "FIGR_HELOC",
-      "quantity": 8.735494561583355,
-      "entry": 1.48222,
-      "cost": 12.960872673819148,
-      "opened": "2026-10-22T21:50:43+00:00",
-      "peak_price": 1.51
-    },
     "beldex": {
       "symbol": "BDX",
       "quantity": 114.71441276687143,
@@ -48,6 +40,14 @@
       "cost": 12.17840461456836,
       "opened": "2026-10-24T18:58:31+00:00",
       "peak_price": 1.34
+    },
+    "ethena": {
+      "symbol": "ENA",
+      "quantity": 41.83838359470122,
+      "entry": 0.29024571650000003,
+      "cost": 12.155555035269549,
+      "opened": "2026-10-25T16:56:49+00:00",
+      "peak_price": 0.29024571650000003
     }
   },
   "trades": [
@@ -1814,6 +1814,24 @@
       "quantity": 9.273294924934865,
       "pnl_aud": null,
       "reason": "Score 90.8; EMA 12/26: bullish, MACD: bullish, RSI: 74.4, 24h: +3.03%, 7d: +24.44%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-25T16:56:49+00:00",
+      "side": "SELL",
+      "symbol": "FIGR_HELOC",
+      "price": 1.4977500000000001,
+      "quantity": 8.735494561583355,
+      "pnl_aud": 0.11,
+      "reason": "momentum reversal"
+    },
+    {
+      "at": "2026-10-25T16:56:49+00:00",
+      "side": "BUY",
+      "symbol": "ENA",
+      "price": 0.29024571650000003,
+      "quantity": 41.83838359470122,
+      "pnl_aud": null,
+      "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 89.8, 24h: +8.70%, 7d: +11.44%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -4336,9 +4354,13 @@
     {
       "at": "2026-10-25T16:21:29+00:00",
       "equity": 81.01
+    },
+    {
+      "at": "2026-10-25T16:56:49+00:00",
+      "equity": 81.01
     }
   ],
-  "last_scan": "2026-10-25T16:21:29+00:00",
+  "last_scan": "2026-10-25T16:56:49+00:00",
   "risk": {
     "date": "2026-10-25",
     "start_equity": 81.42026230887824,
