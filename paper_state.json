@@ -1,5 +1,5 @@
 {
-  "cash": 1.1533875967004885,
+  "cash": 1.2661161648502368,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -25,14 +25,6 @@
       "opened": "2026-10-19T05:43:12+00:00",
       "peak_price": 0.202516
     },
-    "bitway": {
-      "symbol": "BTW",
-      "quantity": 4.736669335439627,
-      "entry": 2.4737050000000003,
-      "cost": 11.728839741042107,
-      "opened": "2026-10-29T02:56:43+00:00",
-      "peak_price": 2.67
-    },
     "binancecoin": {
       "symbol": "BNB",
       "quantity": 0.010974544821663301,
@@ -47,7 +39,15 @@
       "entry": 117.89658,
       "cost": 11.62166860893338,
       "opened": "2026-10-29T10:44:53+00:00",
-      "peak_price": 128.56
+      "peak_price": 129.57
+    },
+    "ethena": {
+      "symbol": "ENA",
+      "quantity": 39.85306774330264,
+      "entry": 0.2956377925,
+      "cost": 11.793855044954931,
+      "opened": "2026-10-29T14:11:54+00:00",
+      "peak_price": 0.2956377925
     }
   },
   "trades": [
@@ -1994,6 +1994,24 @@
       "quantity": 0.09847663562745414,
       "pnl_aud": null,
       "reason": "Score 72.1; EMA 12/26: bullish, MACD: bullish, RSI: 91.6, 24h: +1.09%, 7d: +1.74%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-29T14:11:54+00:00",
+      "side": "SELL",
+      "symbol": "BTW",
+      "price": 2.51622,
+      "quantity": 4.736669335439627,
+      "pnl_aud": 0.18,
+      "reason": "trailing stop"
+    },
+    {
+      "at": "2026-10-29T14:11:54+00:00",
+      "side": "BUY",
+      "symbol": "ENA",
+      "price": 0.2956377925,
+      "quantity": 39.85306774330264,
+      "pnl_aud": null,
+      "reason": "Score 81.5; EMA 12/26: bullish, MACD: bullish, RSI: 85.7, 24h: +6.61%, 7d: +3.47%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -5004,9 +5022,13 @@
     {
       "at": "2026-10-29T13:07:23+00:00",
       "equity": 78.64
+    },
+    {
+      "at": "2026-10-29T14:11:54+00:00",
+      "equity": 78.6
     }
   ],
-  "last_scan": "2026-10-29T13:07:23+00:00",
+  "last_scan": "2026-10-29T14:11:54+00:00",
   "risk": {
     "date": "2026-10-29",
     "start_equity": 78.8661387009954,
