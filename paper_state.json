@@ -1,5 +1,5 @@
 {
-  "cash": 1.5628294435066188,
+  "cash": 13.31042813173149,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -25,21 +25,13 @@
       "opened": "2026-10-19T05:43:12+00:00",
       "peak_price": 0.202516
     },
-    "pepe": {
-      "symbol": "PEPE",
-      "quantity": 1694535.767142965,
-      "entry": 6.940395e-06,
-      "cost": 11.772508313165797,
-      "opened": "2026-10-28T19:22:54+00:00",
-      "peak_price": 7.33e-06
-    },
     "bitway": {
       "symbol": "BTW",
       "quantity": 4.736669335439627,
       "entry": 2.4737050000000003,
       "cost": 11.728839741042107,
       "opened": "2026-10-29T02:56:43+00:00",
-      "peak_price": 2.55
+      "peak_price": 2.57
     },
     "binancecoin": {
       "symbol": "BNB",
@@ -1958,6 +1950,15 @@
       "quantity": 0.010974544821663301,
       "pnl_aud": null,
       "reason": "Score 72.6; EMA 12/26: bullish, MACD: bullish, RSI: 95.1, 24h: +1.40%, 7d: +1.64%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-29T08:09:41+00:00",
+      "side": "SELL",
+      "symbol": "PEPE",
+      "price": 6.939575e-06,
+      "quantity": 1694535.767142965,
+      "pnl_aud": -0.02,
+      "reason": "trailing stop"
     }
   ],
   "equity_history": [
@@ -4940,9 +4941,13 @@
     {
       "at": "2026-10-29T07:07:13+00:00",
       "equity": 78.47
+    },
+    {
+      "at": "2026-10-29T08:09:41+00:00",
+      "equity": 78.21
     }
   ],
-  "last_scan": "2026-10-29T07:07:13+00:00",
+  "last_scan": "2026-10-29T08:09:41+00:00",
   "risk": {
     "date": "2026-10-29",
     "start_equity": 78.8661387009954,
