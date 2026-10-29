@@ -1,5 +1,5 @@
 {
-  "cash": 2.755868888609168,
+  "cash": 1.1050080349656408,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -25,29 +25,29 @@
       "opened": "2026-10-19T05:43:12+00:00",
       "peak_price": 0.202516
     },
-    "binancecoin": {
-      "symbol": "BNB",
-      "quantity": 0.010974544821663301,
-      "entry": 1075.9915700000001,
-      "cost": 11.820326230409561,
-      "opened": "2026-10-29T05:15:35+00:00",
-      "peak_price": 1075.9915700000001
-    },
-    "ethena": {
-      "symbol": "ENA",
-      "quantity": 39.85306774330264,
-      "entry": 0.2956377925,
-      "cost": 11.793855044954931,
-      "opened": "2026-10-29T14:11:54+00:00",
-      "peak_price": 0.305308
-    },
     "hyperliquid": {
       "symbol": "HYPE",
-      "quantity": 0.08712661803852798,
-      "entry": 137.055275,
-      "cost": 11.953103757685502,
-      "opened": "2026-10-29T17:01:41+00:00",
-      "peak_price": 137.055275
+      "quantity": 0.0876945540090076,
+      "entry": 131.49695000000003,
+      "cost": 11.543097950178566,
+      "opened": "2026-10-29T21:12:27+00:00",
+      "peak_price": 131.49695000000003
+    },
+    "monero": {
+      "symbol": "XMR",
+      "quantity": 0.012772126845585255,
+      "entry": 902.53177,
+      "cost": 11.538777498859186,
+      "opened": "2026-10-29T21:12:27+00:00",
+      "peak_price": 902.53177
+    },
+    "tron": {
+      "symbol": "TRX",
+      "quantity": 24.067483748004847,
+      "entry": 0.47877608850000003,
+      "cost": 11.534458664635986,
+      "opened": "2026-10-29T21:12:27+00:00",
+      "peak_price": 0.47877608850000003
     }
   },
   "trades": [
@@ -2030,6 +2030,60 @@
       "quantity": 0.08712661803852798,
       "pnl_aud": null,
       "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 98.1, 24h: +20.15%, 7d: +23.05%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-29T21:12:27+00:00",
+      "side": "SELL",
+      "symbol": "BNB",
+      "price": 1006.4280900000001,
+      "quantity": 0.010974544821663301,
+      "pnl_aud": -0.79,
+      "reason": "stop loss"
+    },
+    {
+      "at": "2026-10-29T21:12:27+00:00",
+      "side": "SELL",
+      "symbol": "ENA",
+      "price": 0.264241043,
+      "quantity": 39.85306774330264,
+      "pnl_aud": -1.27,
+      "reason": "stop loss"
+    },
+    {
+      "at": "2026-10-29T21:12:27+00:00",
+      "side": "SELL",
+      "symbol": "HYPE",
+      "price": 131.10305000000002,
+      "quantity": 0.08712661803852798,
+      "pnl_aud": -0.54,
+      "reason": "stop loss"
+    },
+    {
+      "at": "2026-10-29T21:12:27+00:00",
+      "side": "BUY",
+      "symbol": "HYPE",
+      "price": 131.49695000000003,
+      "quantity": 0.0876945540090076,
+      "pnl_aud": null,
+      "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 95.4, 24h: +14.21%, 7d: +19.55%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-29T21:12:27+00:00",
+      "side": "BUY",
+      "symbol": "XMR",
+      "price": 902.53177,
+      "quantity": 0.012772126845585255,
+      "pnl_aud": null,
+      "reason": "Score 80.5; EMA 12/26: bullish, MACD: bullish, RSI: 94.5, 24h: +6.19%, 7d: +2.29%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-10-29T21:12:27+00:00",
+      "side": "BUY",
+      "symbol": "TRX",
+      "price": 0.47877608850000003,
+      "quantity": 24.067483748004847,
+      "pnl_aud": null,
+      "reason": "Score 73.6; EMA 12/26: bullish, MACD: bullish, RSI: 99.3, 24h: +2.43%, 7d: +0.39%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -5072,9 +5126,13 @@
     {
       "at": "2026-10-29T20:24:16+00:00",
       "equity": 78.77
+    },
+    {
+      "at": "2026-10-29T21:12:27+00:00",
+      "equity": 76.87
     }
   ],
-  "last_scan": "2026-10-29T20:24:16+00:00",
+  "last_scan": "2026-10-29T21:12:27+00:00",
   "risk": {
     "date": "2026-10-29",
     "start_equity": 78.8661387009954,
