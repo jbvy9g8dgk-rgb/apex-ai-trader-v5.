@@ -1,5 +1,5 @@
 {
-  "cash": 0.1894072502226738,
+  "cash": 0.16836635587278614,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -31,7 +31,7 @@
       "entry": 7.43113e-06,
       "cost": 9.47665122422424,
       "opened": "2026-11-08T18:49:53+00:00",
-      "peak_price": 7.63e-06
+      "peak_price": 7.74e-06
     },
     "render-token": {
       "symbol": "RENDER",
@@ -41,13 +41,13 @@
       "opened": "2026-11-09T09:37:10+00:00",
       "peak_price": 2.34
     },
-    "pieverse": {
-      "symbol": "PIEVERSE",
-      "quantity": 3.0553785089143943,
-      "entry": 3.034545,
-      "cost": 9.280955260910964,
-      "opened": "2026-11-10T10:29:31+00:00",
-      "peak_price": 3.034545
+    "bitway": {
+      "symbol": "BTW",
+      "quantity": 4.4243901502791525,
+      "entry": 1.8627900000000002,
+      "cost": 8.24995143776654,
+      "opened": "2026-11-10T18:09:17+00:00",
+      "peak_price": 1.8627900000000002
     }
   },
   "trades": [
@@ -2480,6 +2480,24 @@
       "quantity": 3.0553785089143943,
       "pnl_aud": null,
       "reason": "Score 93.3; EMA 12/26: bullish, MACD: bullish, RSI: 76.9, 24h: +25.96%, 7d: +82.43%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-11-10T18:09:17+00:00",
+      "side": "SELL",
+      "symbol": "PIEVERSE",
+      "price": 2.6959500000000003,
+      "quantity": 3.0553785089143943,
+      "pnl_aud": -1.05,
+      "reason": "stop loss"
+    },
+    {
+      "at": "2026-11-10T18:09:17+00:00",
+      "side": "BUY",
+      "symbol": "BTW",
+      "price": 1.8627900000000002,
+      "quantity": 4.4243901502791525,
+      "pnl_aud": null,
+      "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 92.3, 24h: +22.84%, 7d: +19.39%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -6338,9 +6356,13 @@
     {
       "at": "2026-11-10T10:29:31+00:00",
       "equity": 70.79
+    },
+    {
+      "at": "2026-11-10T18:09:17+00:00",
+      "equity": 70.03
     }
   ],
-  "last_scan": "2026-11-10T10:29:31+00:00",
+  "last_scan": "2026-11-10T18:09:17+00:00",
   "risk": {
     "date": "2026-11-10",
     "start_equity": 70.89065700397991,
