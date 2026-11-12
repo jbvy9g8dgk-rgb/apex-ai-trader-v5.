@@ -1,5 +1,5 @@
 {
-  "cash": 0.1825068011064186,
+  "cash": 0.15673127922587948,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -23,15 +23,7 @@
       "entry": 0.198172814,
       "cost": 13.28533014062082,
       "opened": "2026-10-19T05:43:12+00:00",
-      "peak_price": 0.214787
-    },
-    "midnight-3": {
-      "symbol": "NIGHT",
-      "quantity": 143.36363713671966,
-      "entry": 0.07033634650000001,
-      "cost": 10.09375813160573,
-      "opened": "2026-11-12T00:30:32+00:00",
-      "peak_price": 0.07033634650000001
+      "peak_price": 0.215089
     },
     "figure-heloc": {
       "symbol": "FIGR_HELOC",
@@ -41,13 +33,21 @@
       "opened": "2026-11-12T00:30:32+00:00",
       "peak_price": 1.56234
     },
-    "the-open-network": {
-      "symbol": "GRAM",
-      "quantity": 4.770330789836453,
-      "entry": 1.8728050000000003,
-      "cost": 8.942833254214518,
-      "opened": "2026-11-12T16:19:43+00:00",
-      "peak_price": 1.8728050000000003
+    "jupiter-exchange-solana": {
+      "symbol": "JUP",
+      "quantity": 25.355172083369105,
+      "entry": 0.3891157995,
+      "cost": 9.87596415473693,
+      "opened": "2026-11-12T22:23:43+00:00",
+      "peak_price": 0.3891157995
+    },
+    "beldex": {
+      "symbol": "BDX",
+      "quantity": 71.05779218127076,
+      "entry": 0.10797071350000001,
+      "cost": 7.679832682068072,
+      "opened": "2026-11-12T22:23:43+00:00",
+      "peak_price": 0.10797071350000001
     }
   },
   "trades": [
@@ -2606,6 +2606,42 @@
       "quantity": 4.770330789836453,
       "pnl_aud": null,
       "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 92.8, 24h: +6.74%, 7d: +13.68%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-11-12T22:23:43+00:00",
+      "side": "SELL",
+      "symbol": "NIGHT",
+      "price": 0.06658197700000001,
+      "quantity": 143.36363713671966,
+      "pnl_aud": -0.56,
+      "reason": "stop loss"
+    },
+    {
+      "at": "2026-11-12T22:23:43+00:00",
+      "side": "SELL",
+      "symbol": "GRAM",
+      "price": 1.67748,
+      "quantity": 4.770330789836453,
+      "pnl_aud": -0.95,
+      "reason": "stop loss"
+    },
+    {
+      "at": "2026-11-12T22:23:43+00:00",
+      "side": "BUY",
+      "symbol": "JUP",
+      "price": 0.3891157995,
+      "quantity": 25.355172083369105,
+      "pnl_aud": null,
+      "reason": "Score 80.5; EMA 12/26: bullish, MACD: bullish, RSI: 95.5, 24h: +3.02%, 7d: +9.33%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-11-12T22:23:43+00:00",
+      "side": "BUY",
+      "symbol": "BDX",
+      "price": 0.10797071350000001,
+      "quantity": 71.05779218127076,
+      "pnl_aud": null,
+      "reason": "Score 77.2; EMA 12/26: bullish, MACD: bullish, RSI: 96.7, 24h: +3.58%, 7d: +2.63%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -6496,9 +6532,13 @@
     {
       "at": "2026-11-12T16:19:43+00:00",
       "equity": 67.18
+    },
+    {
+      "at": "2026-11-12T22:23:43+00:00",
+      "equity": 65.8
     }
   ],
-  "last_scan": "2026-11-12T16:19:43+00:00",
+  "last_scan": "2026-11-12T22:23:43+00:00",
   "risk": {
     "date": "2026-11-12",
     "start_equity": 67.33012264587546,
