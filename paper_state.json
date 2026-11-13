@@ -1,5 +1,5 @@
 {
-  "cash": 0.15673127922587948,
+  "cash": 0.1016771428054426,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -25,14 +25,6 @@
       "opened": "2026-10-19T05:43:12+00:00",
       "peak_price": 0.215089
     },
-    "figure-heloc": {
-      "symbol": "FIGR_HELOC",
-      "quantity": 3.3601817140439967,
-      "entry": 1.56234,
-      "cost": 5.254996045418617,
-      "opened": "2026-11-12T00:30:32+00:00",
-      "peak_price": 1.56234
-    },
     "jupiter-exchange-solana": {
       "symbol": "JUP",
       "quantity": 25.355172083369105,
@@ -48,6 +40,14 @@
       "cost": 7.679832682068072,
       "opened": "2026-11-12T22:23:43+00:00",
       "peak_price": 0.10797071350000001
+    },
+    "memecore": {
+      "symbol": "M",
+      "quantity": 4.141456810344491,
+      "entry": 1.2018,
+      "cost": 4.98217999746668,
+      "opened": "2026-11-13T02:48:07+00:00",
+      "peak_price": 1.2018
     }
   },
   "trades": [
@@ -2642,6 +2642,24 @@
       "quantity": 71.05779218127076,
       "pnl_aud": null,
       "reason": "Score 77.2; EMA 12/26: bullish, MACD: bullish, RSI: 96.7, 24h: +3.58%, 7d: +2.63%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-11-13T02:48:07+00:00",
+      "side": "SELL",
+      "symbol": "FIGR_HELOC",
+      "price": 1.467795,
+      "quantity": 3.3601817140439967,
+      "pnl_aud": -0.33,
+      "reason": "stop loss"
+    },
+    {
+      "at": "2026-11-13T02:48:07+00:00",
+      "side": "BUY",
+      "symbol": "M",
+      "price": 1.2018,
+      "quantity": 4.141456810344491,
+      "pnl_aud": null,
+      "reason": "Score 77.9; EMA 12/26: bullish, MACD: bullish, RSI: 97.2, 24h: +4.82%, 7d: +0.36%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -6536,12 +6554,16 @@
     {
       "at": "2026-11-12T22:23:43+00:00",
       "equity": 65.8
+    },
+    {
+      "at": "2026-11-13T02:48:07+00:00",
+      "equity": 65.47
     }
   ],
-  "last_scan": "2026-11-12T22:23:43+00:00",
+  "last_scan": "2026-11-13T02:48:07+00:00",
   "risk": {
-    "date": "2026-11-12",
-    "start_equity": 67.33012264587546,
+    "date": "2026-11-13",
+    "start_equity": 65.49082213681206,
     "locked": false
   }
 }
