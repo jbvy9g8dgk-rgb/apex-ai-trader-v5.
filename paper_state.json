@@ -1,5 +1,5 @@
 {
-  "cash": 0.18005507479615268,
+  "cash": 0.1805000924955955,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -43,11 +43,11 @@
     },
     "pieverse": {
       "symbol": "PIEVERSE",
-      "quantity": 3.321012737584645,
-      "entry": 2.653975,
-      "cost": 8.822698665011439,
-      "opened": "2026-11-14T21:11:13+00:00",
-      "peak_price": 2.87
+      "quantity": 3.304282850413808,
+      "entry": 2.674005,
+      "cost": 8.844504532284196,
+      "opened": "2026-11-15T15:24:04+00:00",
+      "peak_price": 2.674005
     }
   },
   "trades": [
@@ -2696,6 +2696,24 @@
       "quantity": 3.321012737584645,
       "pnl_aud": null,
       "reason": "Score 92.8; EMA 12/26: bullish, MACD: bullish, RSI: 77.5, 24h: +6.27%, 7d: +27.78%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-11-15T15:24:04+00:00",
+      "side": "SELL",
+      "symbol": "PIEVERSE",
+      "price": 2.665995,
+      "quantity": 3.321012737584645,
+      "pnl_aud": 0.02,
+      "reason": "trailing stop"
+    },
+    {
+      "at": "2026-11-15T15:24:04+00:00",
+      "side": "BUY",
+      "symbol": "PIEVERSE",
+      "price": 2.674005,
+      "quantity": 3.304282850413808,
+      "pnl_aud": null,
+      "reason": "Score 81.7; EMA 12/26: bullish, MACD: bullish, RSI: 87.5, 24h: +3.18%, 7d: +21.09%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -6630,9 +6648,13 @@
     {
       "at": "2026-11-15T07:52:02+00:00",
       "equity": 65.35
+    },
+    {
+      "at": "2026-11-15T15:24:04+00:00",
+      "equity": 64.74
     }
   ],
-  "last_scan": "2026-11-15T07:52:02+00:00",
+  "last_scan": "2026-11-15T15:24:04+00:00",
   "risk": {
     "date": "2026-11-15",
     "start_equity": 64.4458275480861,
