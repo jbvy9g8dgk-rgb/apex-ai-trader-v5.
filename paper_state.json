@@ -1,5 +1,5 @@
 {
-  "cash": 0.4955538592791857,
+  "cash": 0.1767998169682592,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -39,15 +39,15 @@
       "entry": 1.2018,
       "cost": 4.98217999746668,
       "opened": "2026-11-13T02:48:07+00:00",
-      "peak_price": 1.26
+      "peak_price": 1.27
     },
     "rain": {
       "symbol": "RAIN",
-      "quantity": 916.6488916930803,
-      "entry": 0.010828207985000001,
-      "cost": 9.935590513320884,
-      "opened": "2026-11-16T17:01:33+00:00",
-      "peak_price": 0.010828207985000001
+      "quantity": 946.9180510354049,
+      "entry": 0.009139689000000001,
+      "cost": 8.66319103144468,
+      "opened": "2026-11-17T00:48:11+00:00",
+      "peak_price": 0.009139689000000001
     }
   },
   "trades": [
@@ -2732,6 +2732,24 @@
       "quantity": 916.6488916930803,
       "pnl_aud": null,
       "reason": "Score 93.4; EMA 12/26: bullish, MACD: bullish, RSI: 76.7, 24h: +97.63%, 7d: +58.22%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-11-17T00:48:11+00:00",
+      "side": "SELL",
+      "symbol": "RAIN",
+      "price": 0.009112311000000001,
+      "quantity": 916.6488916930803,
+      "pnl_aud": -1.59,
+      "reason": "stop loss"
+    },
+    {
+      "at": "2026-11-17T00:48:11+00:00",
+      "side": "BUY",
+      "symbol": "RAIN",
+      "price": 0.009139689000000001,
+      "quantity": 946.9180510354049,
+      "pnl_aud": null,
+      "reason": "Score 100; EMA 12/26: bullish, MACD: bullish, RSI: 55.6, 24h: +77.60%, 7d: +34.25%, Confirmations: 5/5"
     }
   ],
   "equity_history": [
@@ -6686,12 +6704,16 @@
     {
       "at": "2026-11-16T17:01:33+00:00",
       "equity": 66.21
+    },
+    {
+      "at": "2026-11-17T00:48:11+00:00",
+      "equity": 64.46
     }
   ],
-  "last_scan": "2026-11-16T17:01:33+00:00",
+  "last_scan": "2026-11-17T00:48:11+00:00",
   "risk": {
-    "date": "2026-11-16",
-    "start_equity": 65.06796734276746,
+    "date": "2026-11-17",
+    "start_equity": 64.50385211165208,
     "locked": false
   }
 }
