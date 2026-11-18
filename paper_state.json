@@ -1,5 +1,5 @@
 {
-  "cash": 0.09517549299084216,
+  "cash": 1.325466772717867,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -23,7 +23,7 @@
       "entry": 0.198172814,
       "cost": 13.28533014062082,
       "opened": "2026-10-19T05:43:12+00:00",
-      "peak_price": 0.215898
+      "peak_price": 0.21594
     },
     "memecore": {
       "symbol": "M",
@@ -33,14 +33,6 @@
       "opened": "2026-11-13T02:48:07+00:00",
       "peak_price": 1.33
     },
-    "pearl-2": {
-      "symbol": "PEARL",
-      "quantity": 3.62895807568368,
-      "entry": 2.593885,
-      "cost": 9.422513018062906,
-      "opened": "2026-11-17T18:12:10+00:00",
-      "peak_price": 2.66
-    },
     "xdce-crowd-sale": {
       "symbol": "XDC",
       "quantity": 101.86483514876711,
@@ -48,6 +40,14 @@
       "cost": 4.6635991565512676,
       "opened": "2026-11-17T18:12:10+00:00",
       "peak_price": 0.04589309
+    },
+    "pieverse": {
+      "symbol": "PIEVERSE",
+      "quantity": 1.9912698496945203,
+      "entry": 4.867290000000001,
+      "cost": 9.70177991454636,
+      "opened": "2026-11-18T17:27:28+00:00",
+      "peak_price": 4.867290000000001
     }
   },
   "trades": [
@@ -2804,6 +2804,24 @@
       "quantity": 101.86483514876711,
       "pnl_aud": null,
       "reason": "Score 81.4; EMA 12/26: bullish, MACD: bullish, RSI: 94.9, 24h: +5.63%, 7d: +3.73%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-11-18T17:27:28+00:00",
+      "side": "SELL",
+      "symbol": "PEARL",
+      "price": 3.01547,
+      "quantity": 3.62895807568368,
+      "pnl_aud": 1.51,
+      "reason": "take profit"
+    },
+    {
+      "at": "2026-11-18T17:27:28+00:00",
+      "side": "BUY",
+      "symbol": "PIEVERSE",
+      "price": 4.867290000000001,
+      "quantity": 1.9912698496945203,
+      "pnl_aud": null,
+      "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 97.5, 24h: +61.61%, 7d: +94.22%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -6778,9 +6796,13 @@
     {
       "at": "2026-11-18T08:26:07+00:00",
       "equity": 63.22
+    },
+    {
+      "at": "2026-11-18T17:27:28+00:00",
+      "equity": 64.65
     }
   ],
-  "last_scan": "2026-11-18T08:26:07+00:00",
+  "last_scan": "2026-11-18T17:27:28+00:00",
   "risk": {
     "date": "2026-11-18",
     "start_equity": 62.991225735699565,
