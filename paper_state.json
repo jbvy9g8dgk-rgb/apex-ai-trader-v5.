@@ -1,5 +1,5 @@
 {
-  "cash": 0.17789991830311003,
+  "cash": 0.10683573287865844,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -23,15 +23,7 @@
       "entry": 0.198172814,
       "cost": 13.28533014062082,
       "opened": "2026-10-19T05:43:12+00:00",
-      "peak_price": 0.216454
-    },
-    "memecore": {
-      "symbol": "M",
-      "quantity": 4.141456810344491,
-      "entry": 1.2018,
-      "cost": 4.98217999746668,
-      "opened": "2026-11-13T02:48:07+00:00",
-      "peak_price": 1.35
+      "peak_price": 0.219473
     },
     "pearl-2": {
       "symbol": "PEARL",
@@ -48,6 +40,14 @@
       "cost": 8.717095996852406,
       "opened": "2026-11-19T04:31:29+00:00",
       "peak_price": 4.47
+    },
+    "venice-token": {
+      "symbol": "VVV",
+      "quantity": 0.15900999870062124,
+      "entry": 32.88926000000001,
+      "cost": 5.234950911054259,
+      "opened": "2026-11-19T21:59:14+00:00",
+      "peak_price": 32.88926000000001
     }
   },
   "trades": [
@@ -2858,6 +2858,24 @@
       "quantity": 1.9672725322069302,
       "pnl_aud": null,
       "reason": "Score 86.1; EMA 12/26: bullish, MACD: bullish, RSI: 85.8, 24h: +37.25%, 7d: +91.13%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-11-19T21:59:14+00:00",
+      "side": "SELL",
+      "symbol": "M",
+      "price": 1.2481250000000002,
+      "quantity": 4.141456810344491,
+      "pnl_aud": 0.18,
+      "reason": "trailing stop"
+    },
+    {
+      "at": "2026-11-19T21:59:14+00:00",
+      "side": "BUY",
+      "symbol": "VVV",
+      "price": 32.88926000000001,
+      "quantity": 0.15900999870062124,
+      "pnl_aud": null,
+      "reason": "Score 82.4; EMA 12/26: bullish, MACD: bullish, RSI: 87.5, 24h: +3.56%, 7d: +16.28%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -6848,9 +6866,13 @@
     {
       "at": "2026-11-19T13:55:48+00:00",
       "equity": 63.38
+    },
+    {
+      "at": "2026-11-19T21:59:14+00:00",
+      "equity": 63.72
     }
   ],
-  "last_scan": "2026-11-19T13:55:48+00:00",
+  "last_scan": "2026-11-19T21:59:14+00:00",
   "risk": {
     "date": "2026-11-19",
     "start_equity": 63.860857653647294,
