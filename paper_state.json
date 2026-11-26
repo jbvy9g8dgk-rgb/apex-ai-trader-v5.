@@ -1,5 +1,5 @@
 {
-  "cash": 0.17750183374366912,
+  "cash": 0.18757063626446602,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -33,13 +33,13 @@
       "opened": "2026-11-20T11:16:43+00:00",
       "peak_price": 1.52
     },
-    "venice-token": {
-      "symbol": "VVV",
-      "quantity": 0.2265244679322355,
-      "entry": 38.35745,
-      "cost": 8.697589853439812,
-      "opened": "2026-11-22T08:51:25+00:00",
-      "peak_price": 43.37
+    "bitway": {
+      "symbol": "BTW",
+      "quantity": 6.279470792141425,
+      "entry": 1.46219,
+      "cost": 9.190961176958831,
+      "opened": "2026-11-26T04:16:01+00:00",
+      "peak_price": 1.46219
     }
   },
   "trades": [
@@ -2949,6 +2949,24 @@
       "quantity": 0.2265244679322355,
       "pnl_aud": null,
       "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 94.8, 24h: +16.89%, 7d: +29.72%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-11-26T04:16:01+00:00",
+      "side": "SELL",
+      "symbol": "VVV",
+      "price": 40.65892,
+      "quantity": 0.2265244679322355,
+      "pnl_aud": 0.5,
+      "reason": "trailing stop"
+    },
+    {
+      "at": "2026-11-26T04:16:01+00:00",
+      "side": "BUY",
+      "symbol": "BTW",
+      "price": 1.46219,
+      "quantity": 6.279470792141425,
+      "pnl_aud": null,
+      "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 96.6, 24h: +16.14%, 7d: +82.95%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -7019,12 +7037,16 @@
     {
       "at": "2026-11-25T22:22:48+00:00",
       "equity": 63.77
+    },
+    {
+      "at": "2026-11-26T04:16:01+00:00",
+      "equity": 63.13
     }
   ],
-  "last_scan": "2026-11-25T22:22:48+00:00",
+  "last_scan": "2026-11-26T04:16:01+00:00",
   "risk": {
-    "date": "2026-11-25",
-    "start_equity": 62.456781451563394,
+    "date": "2026-11-26",
+    "start_equity": 63.1723413752541,
     "locked": false
   }
 }
