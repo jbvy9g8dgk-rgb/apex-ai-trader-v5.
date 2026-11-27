@@ -1,5 +1,5 @@
 {
-  "cash": 0.08207152978256449,
+  "cash": 0.05764976077731676,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -25,29 +25,29 @@
       "opened": "2026-11-20T11:16:43+00:00",
       "peak_price": 1.52
     },
-    "venice-token": {
-      "symbol": "VVV",
-      "quantity": 0.21195412231835967,
-      "entry": 41.371965,
-      "cost": 8.777727488691056,
-      "opened": "2026-11-26T14:12:43+00:00",
-      "peak_price": 41.371965
-    },
     "bitway": {
       "symbol": "BTW",
       "quantity": 5.429919591937072,
       "entry": 1.66249,
       "cost": 9.03621420942186,
       "opened": "2026-11-27T15:05:17+00:00",
-      "peak_price": 1.66249
+      "peak_price": 1.77
     },
-    "stable-2": {
-      "symbol": "STABLE",
-      "quantity": 101.32948775560125,
-      "entry": 0.03964776257,
-      "cost": 4.021504959345674,
-      "opened": "2026-11-27T15:05:17+00:00",
-      "peak_price": 0.03964776257
+    "sky": {
+      "symbol": "SKY",
+      "quantity": 116.92279422252216,
+      "entry": 0.0770163515,
+      "cost": 9.013971985222138,
+      "opened": "2026-11-27T23:27:17+00:00",
+      "peak_price": 0.0770163515
+    },
+    "lighter": {
+      "symbol": "LIT",
+      "quantity": 0.7097706744233001,
+      "entry": 3.9759550000000004,
+      "cost": 2.8248382780885186,
+      "opened": "2026-11-27T23:27:17+00:00",
+      "peak_price": 3.9759550000000004
     }
   },
   "trades": [
@@ -3056,6 +3056,42 @@
       "quantity": 101.32948775560125,
       "pnl_aud": null,
       "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 91.6, 24h: +8.29%, 7d: +12.47%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-11-27T23:27:17+00:00",
+      "side": "SELL",
+      "symbol": "VVV",
+      "price": 38.122730000000004,
+      "quantity": 0.21195412231835967,
+      "pnl_aud": -0.71,
+      "reason": "stop loss"
+    },
+    {
+      "at": "2026-11-27T23:27:17+00:00",
+      "side": "SELL",
+      "symbol": "STABLE",
+      "price": 0.036967964750000006,
+      "quantity": 101.32948775560125,
+      "pnl_aud": -0.28,
+      "reason": "stop loss"
+    },
+    {
+      "at": "2026-11-27T23:27:17+00:00",
+      "side": "BUY",
+      "symbol": "SKY",
+      "price": 0.0770163515,
+      "quantity": 116.92279422252216,
+      "pnl_aud": null,
+      "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 93.7, 24h: +9.88%, 7d: +19.82%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-11-27T23:27:17+00:00",
+      "side": "BUY",
+      "symbol": "LIT",
+      "price": 3.9759550000000004,
+      "quantity": 0.7097706744233001,
+      "pnl_aud": null,
+      "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 89.8, 24h: +7.38%, 7d: +12.14%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -7146,9 +7182,13 @@
     {
       "at": "2026-11-27T15:05:17+00:00",
       "equity": 60.21
+    },
+    {
+      "at": "2026-11-27T23:27:17+00:00",
+      "equity": 60.06
     }
   ],
-  "last_scan": "2026-11-27T15:05:17+00:00",
+  "last_scan": "2026-11-27T23:27:17+00:00",
   "risk": {
     "date": "2026-11-27",
     "start_equity": 61.653942885510446,
