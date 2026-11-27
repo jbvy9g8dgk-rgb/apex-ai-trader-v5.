@@ -1,5 +1,5 @@
 {
-  "cash": 0.10402741610129507,
+  "cash": 0.08207152978256449,
   "positions": {
     "usdgo": {
       "symbol": "USDGO",
@@ -33,21 +33,21 @@
       "opened": "2026-11-26T14:12:43+00:00",
       "peak_price": 41.371965
     },
-    "pieverse": {
-      "symbol": "PIEVERSE",
-      "quantity": 1.5264352463373159,
-      "entry": 6.049060000000001,
-      "cost": 9.242731889600414,
-      "opened": "2026-11-27T05:03:15+00:00",
-      "peak_price": 6.049060000000001
+    "bitway": {
+      "symbol": "BTW",
+      "quantity": 5.429919591937072,
+      "entry": 1.66249,
+      "cost": 9.03621420942186,
+      "opened": "2026-11-27T15:05:17+00:00",
+      "peak_price": 1.66249
     },
-    "sky": {
-      "symbol": "SKY",
-      "quantity": 70.7622879621926,
-      "entry": 0.0719627825,
-      "cost": 5.09734338896346,
-      "opened": "2026-11-27T05:03:15+00:00",
-      "peak_price": 0.0719627825
+    "stable-2": {
+      "symbol": "STABLE",
+      "quantity": 101.32948775560125,
+      "entry": 0.03964776257,
+      "cost": 4.021504959345674,
+      "opened": "2026-11-27T15:05:17+00:00",
+      "peak_price": 0.03964776257
     }
   },
   "trades": [
@@ -3020,6 +3020,42 @@
       "quantity": 70.7622879621926,
       "pnl_aud": null,
       "reason": "Score 83.3; EMA 12/26: bullish, MACD: bullish, RSI: 93.3, 24h: +11.38%, 7d: +6.63%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-11-27T15:05:17+00:00",
+      "side": "SELL",
+      "symbol": "PIEVERSE",
+      "price": 5.41187,
+      "quantity": 1.5264352463373159,
+      "pnl_aud": -0.99,
+      "reason": "stop loss"
+    },
+    {
+      "at": "2026-11-27T15:05:17+00:00",
+      "side": "SELL",
+      "symbol": "SKY",
+      "price": 0.06766235400000001,
+      "quantity": 70.7622879621926,
+      "pnl_aud": -0.31,
+      "reason": "stop loss"
+    },
+    {
+      "at": "2026-11-27T15:05:17+00:00",
+      "side": "BUY",
+      "symbol": "BTW",
+      "price": 1.66249,
+      "quantity": 5.429919591937072,
+      "pnl_aud": null,
+      "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 93.2, 24h: +15.41%, 7d: +82.88%, Confirmations: 4/5"
+    },
+    {
+      "at": "2026-11-27T15:05:17+00:00",
+      "side": "BUY",
+      "symbol": "STABLE",
+      "price": 0.03964776257,
+      "quantity": 101.32948775560125,
+      "pnl_aud": null,
+      "reason": "Score 86; EMA 12/26: bullish, MACD: bullish, RSI: 91.6, 24h: +8.29%, 7d: +12.47%, Confirmations: 4/5"
     }
   ],
   "equity_history": [
@@ -7106,9 +7142,13 @@
     {
       "at": "2026-11-27T05:03:15+00:00",
       "equity": 61.58
+    },
+    {
+      "at": "2026-11-27T15:05:17+00:00",
+      "equity": 60.21
     }
   ],
-  "last_scan": "2026-11-27T05:03:15+00:00",
+  "last_scan": "2026-11-27T15:05:17+00:00",
   "risk": {
     "date": "2026-11-27",
     "start_equity": 61.653942885510446,
